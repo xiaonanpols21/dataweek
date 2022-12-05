@@ -18,7 +18,7 @@ Before you install the application, make sure to have [Git](https://git-scm.com/
 
 ``` bash
 
-git clone https://github.com/xiaonanpols21/tech-track-22-23.git
+git clone https://github.com/xiaonanpols21/dataweek.git
 
 ```
 ``` bash
