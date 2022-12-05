@@ -1,7 +1,10 @@
-// Our bundler automatically creates styling when imported in the main JS file!
 import '../styles/style.css'
-
-// We can use node_modules directely in the browser!
 import * as d3 from 'd3';
 
-console.log('Hello, world!');
+const urls = ["./data/overview-bts.json", "./data/overview-hs.json"];
+
+Promise.all(urls.map(u => fetch(u)))
+  .then(responses => Promise.all(responses.map((res) => res.json())))
+  .then(data => {
+    console.log(data);
+  });

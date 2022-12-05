@@ -1,0 +1,2965 @@
+{
+    "data": {
+      "artist": {
+        "id": "6KImCVD70vtIoJWnq6nGn3",
+        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+        "following": false,
+        "sharingInfo": {
+          "shareUrl": "https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3?si=itW-JTU1SgmeoZTKeKH6CQ",
+          "shareId": "itW-JTU1SgmeoZTKeKH6CQ"
+        },
+        "profile": {
+          "name": "Harry Styles",
+          "verified": true,
+          "pinnedItem": null,
+          "biography": {
+            "text": "Harry Styles’ third solo album, Harry&#39;s House, is breaking new ground for one of the most creative forces in pop music, a star who keeps refusing to stand still. It’s a deeply personal statement from an artist who has never sounded this joyous, this confident, this fearless in facing the future. Harry’s House debuted at Number One on the Billboard Charts and moved 521,00 equivalent album units in its first week. Harry&#39;s House is currently the best-selling album of 2022.\n \n“As It Was,” the critically acclaimed lead single, dropped on April 1st and became an instant record-breaking hit, debuting at Number One in both the U.S. and the U.K. “As It Was” became the most-streamed song in the U.S. in a single day in Spotify history and the most-streamed song globally in a single day of 2022.\n \nThe British singer-songwriter dropped his blockbuster sophomore album Fine Line on Columbia Records in December 2019. It combined critical acclaim with record-setting commercial success, debuting at Number One on the Billboard charts. “Watermelon Sugar” became his first Number One single, winning Styles his first Grammy, for Best Pop Solo Performance and a 2021 BRIT Award for Best British Single. When Rolling Stone released its comprehensive list of the 500 Greatest Albums of All Time, Fine Line was the most recent album honored, taking its place in history.\n \nHarry is taking Love on Tour worldwide through 2022, in the aftermath of his historic Coachella set, in support of Harry’s House."
+          },
+          "externalLinks": {
+            "items": []
+          },
+          "playlists": {
+            "totalCount": 1,
+            "items": [
+              {
+                "uri": "spotify:playlist:5fwwLMCP6Pz3qYsLIdPa83",
+                "name": "Harry's House. Out Now.",
+                "description": "Harry's House Out Now.  Listen Here hstyles.lnk.to/harryshouse",
+                "owner": {
+                  "name": "Harry Styles"
+                },
+                "images": {
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706c0000da8420d4373d7831fc8b92e0f13e",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "visuals": {
+          "gallery": {
+            "items": [
+              {
+                "sources": [
+                  {
+                    "url": "https://i.scdn.co/image/eaecff0e76816cd6db39e6211bfc2d3746b8ca81",
+                    "width": 640,
+                    "height": 640
+                  }
+                ]
+              }
+            ]
+          },
+          "avatarImage": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6761610000e5ebf7db7c8ede90a019c54590bb",
+                "width": 640,
+                "height": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab6761610000f178f7db7c8ede90a019c54590bb",
+                "width": 160,
+                "height": 160
+              }
+            ],
+            "extractedColors": {
+              "colorRaw": {
+                "hex": "#535353"
+              }
+            }
+          },
+          "headerImage": {
+            "sources": [
+              {
+                "url": "https://i.scdn.co/image/ab6761860000101692dbf2c81200277b5955df67",
+                "width": 2660,
+                "height": 1140
+              }
+            ],
+            "extractedColors": {
+              "colorRaw": {
+                "hex": "#535353"
+              }
+            }
+          }
+        },
+        "discography": {
+          "latest": null,
+          "popularReleases": {
+            "totalCount": 5,
+            "items": [
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "5r36AJ6VOJtp00oxSkBZ5h",
+                      "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                      "name": "Harry's House",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2022 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2022,
+                        "month": 5,
+                        "day": 20,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 13
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "W8HGeGgiSxqLlyFDkfRtmg",
+                        "shareUrl": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=W8HGeGgiSxqLlyFDkfRtmg"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "7xV2TzoaVc0ycW7fwBwAml",
+                      "uri": "spotify:album:7xV2TzoaVc0ycW7fwBwAml",
+                      "name": "Fine Line",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2019 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2019,
+                        "month": 12,
+                        "day": 13,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 12
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "Y87BTD-RSC-slKAtaEZDUw",
+                        "shareUrl": "https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml?si=Y87BTD-RSC-slKAtaEZDUw"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "2pqdSWeJVsXAhHFuVLzuA8",
+                      "uri": "spotify:album:2pqdSWeJVsXAhHFuVLzuA8",
+                      "name": "As It Was",
+                      "type": "SINGLE",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2022 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2022,
+                        "month": 3,
+                        "day": 31,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02b46f74097655d7f353caab14",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851b46f74097655d7f353caab14",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 1
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "2kCEN3E7TuG2wxMeGjQiew",
+                        "shareUrl": "https://open.spotify.com/album/2pqdSWeJVsXAhHFuVLzuA8?si=2kCEN3E7TuG2wxMeGjQiew"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "1FZKIm3JVDCxTchXDo5jOV",
+                      "uri": "spotify:album:1FZKIm3JVDCxTchXDo5jOV",
+                      "name": "Harry Styles",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2017 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2017,
+                        "month": 5,
+                        "day": 12,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e026c619c39c853f8b1d67b7859",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048516c619c39c853f8b1d67b7859",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2736c619c39c853f8b1d67b7859",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 10
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "aYWOpQ5CTtydBRFw9WG56g",
+                        "shareUrl": "https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV?si=aYWOpQ5CTtydBRFw9WG56g"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "7neiWgd56IO7vi2cRUP8Tj",
+                      "uri": "spotify:album:7neiWgd56IO7vi2cRUP8Tj",
+                      "name": "Spotify Singles",
+                      "type": "SINGLE",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2017 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2017,
+                        "month": 9,
+                        "day": 27,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02828f29c88bf2b2ac07cfd3a7",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851828f29c88bf2b2ac07cfd3a7",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273828f29c88bf2b2ac07cfd3a7",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 2
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "7q6hXsGLRHCOfIeGEk-tLw",
+                        "shareUrl": "https://open.spotify.com/album/7neiWgd56IO7vi2cRUP8Tj?si=7q6hXsGLRHCOfIeGEk-tLw"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "singles": {
+            "totalCount": 2,
+            "items": [
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "2pqdSWeJVsXAhHFuVLzuA8",
+                      "uri": "spotify:album:2pqdSWeJVsXAhHFuVLzuA8",
+                      "name": "As It Was",
+                      "type": "SINGLE",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2022 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2022,
+                        "month": 3,
+                        "day": 31,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02b46f74097655d7f353caab14",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851b46f74097655d7f353caab14",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273b46f74097655d7f353caab14",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 1
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "2kCEN3E7TuG2wxMeGjQiew",
+                        "shareUrl": "https://open.spotify.com/album/2pqdSWeJVsXAhHFuVLzuA8?si=2kCEN3E7TuG2wxMeGjQiew"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "7neiWgd56IO7vi2cRUP8Tj",
+                      "uri": "spotify:album:7neiWgd56IO7vi2cRUP8Tj",
+                      "name": "Spotify Singles",
+                      "type": "SINGLE",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2017 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2017,
+                        "month": 9,
+                        "day": 27,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02828f29c88bf2b2ac07cfd3a7",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851828f29c88bf2b2ac07cfd3a7",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273828f29c88bf2b2ac07cfd3a7",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 2
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "7q6hXsGLRHCOfIeGEk-tLw",
+                        "shareUrl": "https://open.spotify.com/album/7neiWgd56IO7vi2cRUP8Tj?si=7q6hXsGLRHCOfIeGEk-tLw"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "albums": {
+            "totalCount": 3,
+            "items": [
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "5r36AJ6VOJtp00oxSkBZ5h",
+                      "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                      "name": "Harry's House",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2022 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2022,
+                        "month": 5,
+                        "day": 20,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 13
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "W8HGeGgiSxqLlyFDkfRtmg",
+                        "shareUrl": "https://open.spotify.com/album/5r36AJ6VOJtp00oxSkBZ5h?si=W8HGeGgiSxqLlyFDkfRtmg"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "7xV2TzoaVc0ycW7fwBwAml",
+                      "uri": "spotify:album:7xV2TzoaVc0ycW7fwBwAml",
+                      "name": "Fine Line",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2019 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2019,
+                        "month": 12,
+                        "day": 13,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 12
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "Y87BTD-RSC-slKAtaEZDUw",
+                        "shareUrl": "https://open.spotify.com/album/7xV2TzoaVc0ycW7fwBwAml?si=Y87BTD-RSC-slKAtaEZDUw"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "items": [
+                    {
+                      "id": "1FZKIm3JVDCxTchXDo5jOV",
+                      "uri": "spotify:album:1FZKIm3JVDCxTchXDo5jOV",
+                      "name": "Harry Styles",
+                      "type": "ALBUM",
+                      "copyright": {
+                        "items": [
+                          {
+                            "type": "P",
+                            "text": "(P) 2017 Erskine Records Limited, under exclusive license to Columbia Records, a Division of Sony Music Entertainment"
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2017,
+                        "month": 5,
+                        "day": 12,
+                        "precision": "DAY"
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e026c619c39c853f8b1d67b7859",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048516c619c39c853f8b1d67b7859",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2736c619c39c853f8b1d67b7859",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "tracks": {
+                        "totalCount": 10
+                      },
+                      "label": "Columbia",
+                      "playability": {
+                        "playable": true,
+                        "reason": "PLAYABLE"
+                      },
+                      "sharingInfo": {
+                        "shareId": "aYWOpQ5CTtydBRFw9WG56g",
+                        "shareUrl": "https://open.spotify.com/album/1FZKIm3JVDCxTchXDo5jOV?si=aYWOpQ5CTtydBRFw9WG56g"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "compilations": {
+            "totalCount": 0,
+            "items": []
+          },
+          "topTracks": {
+            "items": [
+              {
+                "uid": "21357fcdc14a80fff29b",
+                "track": {
+                  "id": "4Dvkj6JhhA12EX05fT7y2e",
+                  "uri": "spotify:track:4Dvkj6JhhA12EX05fT7y2e",
+                  "name": "As It Was",
+                  "playcount": "1626726876",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 167303
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "10fbbb3806946fa6e060",
+                "track": {
+                  "id": "1qEmFfgcLObUfQm0j1W2CK",
+                  "uri": "spotify:track:1qEmFfgcLObUfQm0j1W2CK",
+                  "name": "Late Night Talking",
+                  "playcount": "463857980",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 177954
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "c43d1d34350ca556d382",
+                "track": {
+                  "id": "6UelLqGlWMcVH1E5c4H7lY",
+                  "uri": "spotify:track:6UelLqGlWMcVH1E5c4H7lY",
+                  "name": "Watermelon Sugar",
+                  "playcount": "2027173253",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 174000
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:7xV2TzoaVc0ycW7fwBwAml",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "a0295f3747d90c9a7dc6",
+                "track": {
+                  "id": "3jjujdWJ72nww5eGnfs2E7",
+                  "uri": "spotify:track:3jjujdWJ72nww5eGnfs2E7",
+                  "name": "Adore You",
+                  "playcount": "1261427678",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 207133
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:7xV2TzoaVc0ycW7fwBwAml",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "87322bacef7bc75d089c",
+                "track": {
+                  "id": "6uvh0In7u1Xn4HgxOfAn8O",
+                  "uri": "spotify:track:6uvh0In7u1Xn4HgxOfAn8O",
+                  "name": "Matilda",
+                  "playcount": "233252666",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 245964
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "2db40efb6154e63f0664",
+                "track": {
+                  "id": "1ZMiCix7XSAbfAJlEZWMCp",
+                  "uri": "spotify:track:1ZMiCix7XSAbfAJlEZWMCp",
+                  "name": "Falling",
+                  "playcount": "877589709",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 240133
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:7xV2TzoaVc0ycW7fwBwAml",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e0277fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b27377fdcfda6535601aff081b6a"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "dee4fff8e26441498cff",
+                "track": {
+                  "id": "5LYMamLv12UPbemOaTPyeV",
+                  "uri": "spotify:track:5LYMamLv12UPbemOaTPyeV",
+                  "name": "Music For a Sushi Restaurant",
+                  "playcount": "223007082",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 193813
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "fb1147712af613531d8c",
+                "track": {
+                  "id": "5Ohxk2dO5COHF1krpoPigN",
+                  "uri": "spotify:track:5Ohxk2dO5COHF1krpoPigN",
+                  "name": "Sign of the Times",
+                  "playcount": "1157663216",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 340706
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:1FZKIm3JVDCxTchXDo5jOV",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e026c619c39c853f8b1d67b7859"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048516c619c39c853f8b1d67b7859"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2736c619c39c853f8b1d67b7859"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "289cb9836516a9cff1aa",
+                "track": {
+                  "id": "51Zw1cKDgkad0CXv23HCMU",
+                  "uri": "spotify:track:51Zw1cKDgkad0CXv23HCMU",
+                  "name": "Daylight",
+                  "playcount": "192718582",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 164533
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "uid": "47a1858c5fd967a1c0b3",
+                "track": {
+                  "id": "0rzaRSujxA0bKyjJl6vHYq",
+                  "uri": "spotify:track:0rzaRSujxA0bKyjJl6vHYq",
+                  "name": "Satellite",
+                  "playcount": "168291413",
+                  "discNumber": 1,
+                  "duration": {
+                    "totalMilliseconds": 218577
+                  },
+                  "playability": {
+                    "playable": true,
+                    "reason": "PLAYABLE"
+                  },
+                  "contentRating": {
+                    "label": "NONE"
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      }
+                    ]
+                  },
+                  "album": {
+                    "uri": "spotify:album:5r36AJ6VOJtp00oxSkBZ5h",
+                    "coverArt": {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d00001e022e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d000048512e8ed79e177ff6011076f5f0"
+                        },
+                        {
+                          "url": "https://i.scdn.co/image/ab67616d0000b2732e8ed79e177ff6011076f5f0"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "stats": {
+          "followers": 24664679,
+          "monthlyListeners": 63635339,
+          "worldRank": 10,
+          "topCities": {
+            "items": [
+              {
+                "numberOfListeners": 1416895,
+                "city": "London",
+                "country": "GB",
+                "region": "ENG"
+              },
+              {
+                "numberOfListeners": 1389887,
+                "city": "Mexico City",
+                "country": "MX",
+                "region": "CMX"
+              },
+              {
+                "numberOfListeners": 999401,
+                "city": "Jakarta",
+                "country": "ID",
+                "region": "JK"
+              },
+              {
+                "numberOfListeners": 900673,
+                "city": "São Paulo",
+                "country": "BR",
+                "region": "SP"
+              },
+              {
+                "numberOfListeners": 824112,
+                "city": "Santiago",
+                "country": "CL",
+                "region": "RM"
+              }
+            ]
+          }
+        },
+        "relatedContent": {
+          "appearsOn": {
+            "totalCount": 8,
+            "items": [
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:2muHW0CAFyCtVLkL8W96pe",
+                      "id": "2muHW0CAFyCtVLkL8W96pe",
+                      "name": "Best Classical Guitar Covers",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02ab8bda395a291eef36f526ad",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851ab8bda395a291eef36f526ad",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273ab8bda395a291eef36f526ad",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2020
+                      },
+                      "sharingInfo": {
+                        "shareId": "EfxpIuO9QX-BFzFj6GDkAA",
+                        "shareUrl": "https://open.spotify.com/album/2muHW0CAFyCtVLkL8W96pe?si=EfxpIuO9QX-BFzFj6GDkAA"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:53P2GoEHlMveE3uDzwbaKv",
+                      "id": "53P2GoEHlMveE3uDzwbaKv",
+                      "name": "Piano Chill (Extended Version)",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0TORlmlTHaneG9k4nWPn0V",
+                            "profile": {
+                              "name": "Michael Forster"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02d6267bba07df52705edab8be",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851d6267bba07df52705edab8be",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273d6267bba07df52705edab8be",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2021
+                      },
+                      "sharingInfo": {
+                        "shareId": "diXOGW8CRBGNbh36vWLpbA",
+                        "shareUrl": "https://open.spotify.com/album/53P2GoEHlMveE3uDzwbaKv?si=diXOGW8CRBGNbh36vWLpbA"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:3KM3NrvDnZ3fgMOi5lOpmj",
+                      "id": "3KM3NrvDnZ3fgMOi5lOpmj",
+                      "name": "Classical Covers of Pop Music",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02436bcd1a2a7cad18ba0a17e9",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851436bcd1a2a7cad18ba0a17e9",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273436bcd1a2a7cad18ba0a17e9",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2020
+                      },
+                      "sharingInfo": {
+                        "shareId": "xP5f4yAmQXOuIplUxxxnLg",
+                        "shareUrl": "https://open.spotify.com/album/3KM3NrvDnZ3fgMOi5lOpmj?si=xP5f4yAmQXOuIplUxxxnLg"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:4hpO3dn5G90UpKbR2NAuJy",
+                      "id": "4hpO3dn5G90UpKbR2NAuJy",
+                      "name": "Instrumental Pop Music Playlist",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e02b8929553badfa27c6ca9592a",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00004851b8929553badfa27c6ca9592a",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b273b8929553badfa27c6ca9592a",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2020
+                      },
+                      "sharingInfo": {
+                        "shareId": "s4ty0ov1QV2jCbKzaQdprg",
+                        "shareUrl": "https://open.spotify.com/album/4hpO3dn5G90UpKbR2NAuJy?si=s4ty0ov1QV2jCbKzaQdprg"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:6zO34lwVZTeuRUdNFy5yrj",
+                      "id": "6zO34lwVZTeuRUdNFy5yrj",
+                      "name": "Instrumental Covers of Popular Songs",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e0273179740125de019dc51f0b1",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000485173179740125de019dc51f0b1",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b27373179740125de019dc51f0b1",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2020
+                      },
+                      "sharingInfo": {
+                        "shareId": "7c3pFvSESNuf1NqIap26xA",
+                        "shareUrl": "https://open.spotify.com/album/6zO34lwVZTeuRUdNFy5yrj?si=7c3pFvSESNuf1NqIap26xA"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:72YpTZgoBaXHzgfjbwgsdx",
+                      "id": "72YpTZgoBaXHzgfjbwgsdx",
+                      "name": "Guitar Pop Songs",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e027bb0bc2d22d219a73d04cec0",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048517bb0bc2d22d219a73d04cec0",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2737bb0bc2d22d219a73d04cec0",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2021
+                      },
+                      "sharingInfo": {
+                        "shareId": "HwFqv_CPSE6EmKhfy432Tw",
+                        "shareUrl": "https://open.spotify.com/album/72YpTZgoBaXHzgfjbwgsdx?si=HwFqv_CPSE6EmKhfy432Tw"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:3qNSM8VgeubaBN5sQXuj79",
+                      "id": "3qNSM8VgeubaBN5sQXuj79",
+                      "name": "Instrumental Chart Hits",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e022e0fb2bba6fcfe87f888d990",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048512e0fb2bba6fcfe87f888d990",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2732e0fb2bba6fcfe87f888d990",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2021
+                      },
+                      "sharingInfo": {
+                        "shareId": "P3DPEroSRI-nb2BHTtwRtA",
+                        "shareUrl": "https://open.spotify.com/album/3qNSM8VgeubaBN5sQXuj79?si=P3DPEroSRI-nb2BHTtwRtA"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "releases": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "uri": "spotify:album:0KviHr9o9EmnKHyAcfVZMt",
+                      "id": "0KviHr9o9EmnKHyAcfVZMt",
+                      "name": "Instrumental Pop Songs",
+                      "artists": {
+                        "items": [
+                          {
+                            "uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of",
+                            "profile": {
+                              "name": "Various Artists"
+                            }
+                          }
+                        ]
+                      },
+                      "coverArt": {
+                        "sources": [
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d00001e027657cd6a5e53d3fb8ec9f3df",
+                            "width": 300,
+                            "height": 300
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d000048517657cd6a5e53d3fb8ec9f3df",
+                            "width": 64,
+                            "height": 64
+                          },
+                          {
+                            "url": "https://i.scdn.co/image/ab67616d0000b2737657cd6a5e53d3fb8ec9f3df",
+                            "width": 640,
+                            "height": 640
+                          }
+                        ]
+                      },
+                      "date": {
+                        "year": 2020
+                      },
+                      "sharingInfo": {
+                        "shareId": "T6dXpXGwRouiMa7-V3eQdA",
+                        "shareUrl": "https://open.spotify.com/album/0KviHr9o9EmnKHyAcfVZMt?si=T6dXpXGwRouiMa7-V3eQdA"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "featuring": {
+            "totalCount": 8,
+            "items": [
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX55yuR78Invt",
+                "id": "37i9dQZF1DX55yuR78Invt",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "This Is Harry Styles",
+                "description": "This is Harry Styles. The essential tracks, all in one playlist. ",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002f4bb692d1a4ad8ba79f84655",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1E4BHGOS34BXBo",
+                "id": "37i9dQZF1E4BHGOS34BXBo",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Harry Styles Radio",
+                "description": "",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://seeded-session-images.scdn.co/v1/img/artist/6KImCVD70vtIoJWnq6nGn3/en",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M",
+                "id": "37i9dQZF1DXcBWIGoYBM5M",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Today's Top Hits",
+                "description": "Meghan Trainor is on top of the Hottest 50!",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002d27a01034957864afdcaa603",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX0kbJZpiYdZl",
+                "id": "37i9dQZF1DX0kbJZpiYdZl",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits USA",
+                "description": "The hottest tracks in the United States. Cover: Drake & 21 Savage",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000021149385cc8844684ff76440f",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWWvvyNmW9V9a",
+                "id": "37i9dQZF1DWWvvyNmW9V9a",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "teen beats",
+                "description": "Wednesday Addams has put her paws up",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002a2dcaba9794dc0021b625dd3",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX3rxVfibe1L0",
+                "id": "37i9dQZF1DX3rxVfibe1L0",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Mood Booster",
+                "description": "Get happy with today's dose of feel-good songs!",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002bd0e19e810bb4b55ab164a95",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXa2PvUpywmrr",
+                "id": "37i9dQZF1DXa2PvUpywmrr",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Party Hits",
+                "description": "A mix of the biggest pop, dance, and hip hop party songs. Cover: Post Malone",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002c50c8151c7d4b4b7119c2b88",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWSqmBTGDYngZ",
+                "id": "37i9dQZF1DWSqmBTGDYngZ",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Songs to Sing in the Shower",
+                "description": "Make your shower more uplifting by singing along to these hits.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f0000000224893f0507c0fe2855565438",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "discoveredOn": {
+            "totalCount": 93,
+            "items": [
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXcBWIGoYBM5M",
+                "id": "37i9dQZF1DXcBWIGoYBM5M",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Today's Top Hits",
+                "description": "Meghan Trainor is on top of the Hottest 50!",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002d27a01034957864afdcaa603",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXbYM3nMM0oPk",
+                "id": "37i9dQZF1DXbYM3nMM0oPk",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Mega Hit Mix",
+                "description": "A mega mix of 75 favorites from the last few years! ",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002fecb9c578f38ebc8eef432cc",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZEVXbMDoHDwVN2tF",
+                "id": "37i9dQZEVXbMDoHDwVN2tF",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Top 50 - Global",
+                "description": "Your daily update of the most played tracks right now - Global.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX0kbJZpiYdZl",
+                "id": "37i9dQZF1DX0kbJZpiYdZl",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits USA",
+                "description": "The hottest tracks in the United States. Cover: Drake & 21 Savage",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000021149385cc8844684ff76440f",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX55yuR78Invt",
+                "id": "37i9dQZF1DX55yuR78Invt",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "This Is Harry Styles",
+                "description": "This is Harry Styles. The essential tracks, all in one playlist. ",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002f4bb692d1a4ad8ba79f84655",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX3rxVfibe1L0",
+                "id": "37i9dQZF1DX3rxVfibe1L0",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Mood Booster",
+                "description": "Get happy with today's dose of feel-good songs!",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002bd0e19e810bb4b55ab164a95",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX6aTaZa0K6VA",
+                "id": "37i9dQZF1DX6aTaZa0K6VA",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Pop Up",
+                "description": "Super mega hits! Foto: Harry Styles",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000029f628c697211fda4d5e8c335",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX5BAPG29mHS8",
+                "id": "37i9dQZF1DX5BAPG29mHS8",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Éxitos México",
+                "description": "Los hits de ahora en la playlist más grande de México, con Bellakath. ",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002920cb9641607dec409de0897",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZEVXbNG2KDcFcKOF",
+                "id": "37i9dQZEVXbNG2KDcFcKOF",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Top Songs - Global",
+                "description": "Your weekly update of the most played tracks right now - Global.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXa2EiKmMLhFD",
+                "id": "37i9dQZF1DXa2EiKmMLhFD",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits Indonesia",
+                "description": "Hits terpanas dari Budi Doremi, raissa anggiani serta artis terfavorit Anda dari dalam negeri dan mancanegara.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000029d986085562fe4cd606c3719",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX4WYpdgoIcn6",
+                "id": "37i9dQZF1DX4WYpdgoIcn6",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Chill Hits",
+                "description": "Kick back to the best new and recent chill hits.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f0000000208ca740941aa65b5e205c361",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWTwnEm1IYyoj",
+                "id": "37i9dQZF1DWTwnEm1IYyoj",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Soft Pop Hits",
+                "description": "Listen to easy songs from your favorite artists! Cover: Sia",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f0000000219b30d27d8f7d0b98cefe15b",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DXcZQSjptOQtk",
+                "id": "37i9dQZF1DXcZQSjptOQtk",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits Philippines",
+                "description": "Best tracks from the world of OPM and pop. Cover: Lola Amour",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000025dba1644a3df75dabee622a8",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWVuV87wUBNwc",
+                "id": "37i9dQZF1DWVuV87wUBNwc",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hits du Moment",
+                "description": "Aime Simone au sommet de la première playlist de France.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002df1a735f771e7811c0910d08",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX03VbhoH7arm",
+                "id": "37i9dQZF1DX03VbhoH7arm",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits Brasil",
+                "description": "Os grandes hits do momento estão aqui! Foto: Anitta",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f0000000220645a432d05c7fa7b61eff5",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX1gRalH1mWrP",
+                "id": "37i9dQZF1DX1gRalH1mWrP",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Summer Hits",
+                "description": "All the hits you'll need to make your summer sizzle.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000024fdcd4954713745550ba27b3",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX8685vIIepKh",
+                "id": "37i9dQZF1DX8685vIIepKh",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Garde la pêche !",
+                "description": "La playlist survitaminée !",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f00000002db26a5ccd82cbd6d23080c96",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWYBO1MoTDhZI",
+                "id": "37i9dQZF1DWYBO1MoTDhZI",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Good Vibes",
+                "description": "Set it off with these epic anthems. Only good vibes here!",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000027dc2a0fb4bfe0d07294f685e",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DWY4lFlS4Pnso",
+                "id": "37i9dQZF1DWY4lFlS4Pnso",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Hot Hits UK",
+                "description": "The UK's biggest playlist. Cover: Raye",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f000000026c87de64142f6164d77ea282",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "uri": "spotify:playlist:37i9dQZF1DX1ngEVM0lKrb",
+                "id": "37i9dQZF1DX1ngEVM0lKrb",
+                "owner": {
+                  "name": "Spotify"
+                },
+                "name": "Pop Internacional 2022",
+                "description": "Lo mejor en inglés de la última década. Para novedades, escucha <a href=\"spotify:playlist:37i9dQZF1DX6aTaZa0K6VA\">Pop Up</a>.",
+                "images": {
+                  "totalCount": 1,
+                  "items": [
+                    {
+                      "sources": [
+                        {
+                          "url": "https://i.scdn.co/image/ab67706f0000000249e05c5a2e4e517d2599f30d",
+                          "width": null,
+                          "height": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "relatedArtists": {
+            "totalCount": 20,
+            "items": [
+              {
+                "id": "1Hsdzj7Dlq2I7tHP7501T4",
+                "uri": "spotify:artist:1Hsdzj7Dlq2I7tHP7501T4",
+                "profile": {
+                  "name": "Niall Horan"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb80c7323d8b64397c278f86df",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17880c7323d8b64397c278f86df",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "57WHJIHrjOE3iAxpihhMnp",
+                "uri": "spotify:artist:57WHJIHrjOE3iAxpihhMnp",
+                "profile": {
+                  "name": "Louis Tomlinson"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebe169df750e95452a1de99692",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178e169df750e95452a1de99692",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "5pUo3fmmHT8bhCyHE52hA6",
+                "uri": "spotify:artist:5pUo3fmmHT8bhCyHE52hA6",
+                "profile": {
+                  "name": "Liam Payne"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb6b873bf2d3bc2ed6401325c4",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f1786b873bf2d3bc2ed6401325c4",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "5Rl15oVamLq7FbSb0NNBNy",
+                "uri": "spotify:artist:5Rl15oVamLq7FbSb0NNBNy",
+                "profile": {
+                  "name": "5 Seconds of Summer"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb92ce1e218cb7b48386efe3d8",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17892ce1e218cb7b48386efe3d8",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "4UFShyUQuA8dguoZrqX0jQ",
+                "uri": "spotify:artist:4UFShyUQuA8dguoZrqX0jQ",
+                "profile": {
+                  "name": "Luke Hemmings"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebaecfee38c8f704fd07e1ab06",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178aecfee38c8f704fd07e1ab06",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+                "uri": "spotify:artist:4AK6F7OLvEQ5QYCBNiQWHq",
+                "profile": {
+                  "name": "One Direction"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/289c7f686f5b78ceeb224453cf9a15697a678a79",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/6c89c662ad0ab75bc2af9a3ae2b16f811daced50",
+                        "width": 64,
+                        "height": 64
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "1r1uxoy19fzMxunt3ONAkG",
+                "uri": "spotify:artist:1r1uxoy19fzMxunt3ONAkG",
+                "profile": {
+                  "name": "Phoebe Bridgers"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb626686e362d30246e816cc5b",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178626686e362d30246e816cc5b",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "2wUjUUtkb5lvLKcGKsKqsR",
+                "uri": "spotify:artist:2wUjUUtkb5lvLKcGKsKqsR",
+                "profile": {
+                  "name": "Alessia Cara"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebe74b7398634a741f74858dc7",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178e74b7398634a741f74858dc7",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "7gAppWoH7pcYmphCVTXkzs",
+                "uri": "spotify:artist:7gAppWoH7pcYmphCVTXkzs",
+                "profile": {
+                  "name": "The Vamps"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb77ef80571a40d9d19cf52208",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17877ef80571a40d9d19cf52208",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "7n2wHs1TKAczGzO7Dd2rGr",
+                "uri": "spotify:artist:7n2wHs1TKAczGzO7Dd2rGr",
+                "profile": {
+                  "name": "Shawn Mendes"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb46e7a06fa6dfefaed6a3f0db",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17846e7a06fa6dfefaed6a3f0db",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "3mIj9lX2MWuHmhNCA7LSCW",
+                "uri": "spotify:artist:3mIj9lX2MWuHmhNCA7LSCW",
+                "profile": {
+                  "name": "The 1975"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb89348336354096fd4e36ca73",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17889348336354096fd4e36ca73",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "6beUvFUlKliUYJdLOXNj9C",
+                "uri": "spotify:artist:6beUvFUlKliUYJdLOXNj9C",
+                "profile": {
+                  "name": "King Princess"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebdced725bdaf4014fdf5c3238",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178dced725bdaf4014fdf5c3238",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "5p7f24Rk5HkUZsaS3BLG5F",
+                "uri": "spotify:artist:5p7f24Rk5HkUZsaS3BLG5F",
+                "profile": {
+                  "name": "Hailee Steinfeld"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eba961383967f3a3a54e794a15",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178a961383967f3a3a54e794a15",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "7gOdHgIoIKoe4i9Tta6qdD",
+                "uri": "spotify:artist:7gOdHgIoIKoe4i9Tta6qdD",
+                "profile": {
+                  "name": "Jonas Brothers"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb142120beb4014a7f8abd0cf0",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178142120beb4014a7f8abd0cf0",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "6M2wZ9GZgrQXHCFfjv46we",
+                "uri": "spotify:artist:6M2wZ9GZgrQXHCFfjv46we",
+                "profile": {
+                  "name": "Dua Lipa"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebd42a27db3286b58553da8858",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178d42a27db3286b58553da8858",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "6P5NO5hzJbuOqSdyPB7SJM",
+                "uri": "spotify:artist:6P5NO5hzJbuOqSdyPB7SJM",
+                "profile": {
+                  "name": "Ashe"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb6e2c026d1776ca2b30b328f5",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f1786e2c026d1776ca2b30b328f5",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "0ZED1XzwlLHW4ZaG4lOT6m",
+                "uri": "spotify:artist:0ZED1XzwlLHW4ZaG4lOT6m",
+                "profile": {
+                  "name": "Julia Michaels"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb2c17882893491af059fb867e",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f1782c17882893491af059fb867e",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "2D4FOOOtWycb3Aw9nY5n3c",
+                "uri": "spotify:artist:2D4FOOOtWycb3Aw9nY5n3c",
+                "profile": {
+                  "name": "Declan McKenna"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5ebb6b72d5ce4ea0f42585a6364",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178b6b72d5ce4ea0f42585a6364",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "5bmqhxWk9SEFDGIzWpSjVJ",
+                "uri": "spotify:artist:5bmqhxWk9SEFDGIzWpSjVJ",
+                "profile": {
+                  "name": "THE DRIVER ERA"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb582db11525477fefd2245f6e",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f178582db11525477fefd2245f6e",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "id": "74KM79TiuVKeVCqs8QtB0B",
+                "uri": "spotify:artist:74KM79TiuVKeVCqs8QtB0B",
+                "profile": {
+                  "name": "Sabrina Carpenter"
+                },
+                "visuals": {
+                  "avatarImage": {
+                    "sources": [
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000e5eb00fd80d5a04958c6164785bf",
+                        "width": 640,
+                        "height": 640
+                      },
+                      {
+                        "url": "https://i.scdn.co/image/ab6761610000f17800fd80d5a04958c6164785bf",
+                        "width": 160,
+                        "height": 160
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "goods": {
+          "events": {
+            "userLocation": {
+              "name": "Ashburn"
+            },
+            "concerts": {
+              "totalCount": 48,
+              "items": [
+                {
+                  "uri": "spotify:concert:7HvFnBMe9eWSP9W8I7AiXz",
+                  "id": "7HvFnBMe9eWSP9W8I7AiXz",
+                  "title": "Harry Styles with Koffee at Allianz Parque (December 6, 2022)",
+                  "category": "CONCERT",
+                  "festival": false,
+                  "nearUser": false,
+                  "venue": {
+                    "name": "Allianz Parque",
+                    "location": {
+                      "name": "São Paulo"
+                    },
+                    "coordinates": {
+                      "latitude": -23.52581,
+                      "longitude": -46.67896
+                    }
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "id": "6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1gWjcmBsveEYMxOZ0VRi32",
+                        "id": "1gWjcmBsveEYMxOZ0VRi32",
+                        "profile": {
+                          "name": "Koffee"
+                        }
+                      }
+                    ]
+                  },
+                  "partnerLinks": {
+                    "items": [
+                      {
+                        "partnerName": "Songkick",
+                        "url": "https://www.songkick.com/concerts/40193471-harry-styles-at-allianz-parque?utm_source=8123&utm_medium=partner&utm_content=&utm_campaign=artist"
+                      }
+                    ]
+                  },
+                  "date": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 6,
+                    "hour": 20,
+                    "minute": 15,
+                    "second": 0,
+                    "isoString": "2022-12-06T20:15-03:00",
+                    "precision": "MINUTE"
+                  }
+                },
+                {
+                  "uri": "spotify:concert:6eD0NYlGAYXfTlx6NqB2ga",
+                  "id": "6eD0NYlGAYXfTlx6NqB2ga",
+                  "title": "Harry Styles with Koffee at Jeunesse Arena (December 8, 2022)",
+                  "category": "CONCERT",
+                  "festival": false,
+                  "nearUser": false,
+                  "venue": {
+                    "name": "Jeunesse Arena",
+                    "location": {
+                      "name": "Rio de Janeiro"
+                    },
+                    "coordinates": {
+                      "latitude": -22.97305,
+                      "longitude": -43.39751
+                    }
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "id": "6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1gWjcmBsveEYMxOZ0VRi32",
+                        "id": "1gWjcmBsveEYMxOZ0VRi32",
+                        "profile": {
+                          "name": "Koffee"
+                        }
+                      }
+                    ]
+                  },
+                  "partnerLinks": {
+                    "items": [
+                      {
+                        "partnerName": "Songkick",
+                        "url": "https://www.songkick.com/concerts/40193474-harry-styles-at-jeunesse-arena?utm_source=8123&utm_medium=partner&utm_content=&utm_campaign=artist"
+                      }
+                    ]
+                  },
+                  "date": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 8,
+                    "hour": 20,
+                    "minute": 45,
+                    "second": 0,
+                    "isoString": "2022-12-08T20:45-03:00",
+                    "precision": "MINUTE"
+                  }
+                },
+                {
+                  "uri": "spotify:concert:7mo1hckBeLo0jRcnzMsuP6",
+                  "id": "7mo1hckBeLo0jRcnzMsuP6",
+                  "title": "Harry Styles with Koffee at Pedreira Paulo Leminski (December 10, 2022)",
+                  "category": "CONCERT",
+                  "festival": false,
+                  "nearUser": false,
+                  "venue": {
+                    "name": "Pedreira Paulo Leminski",
+                    "location": {
+                      "name": "Curitiba"
+                    },
+                    "coordinates": {
+                      "latitude": -25.38599,
+                      "longitude": -49.27333
+                    }
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "id": "6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1gWjcmBsveEYMxOZ0VRi32",
+                        "id": "1gWjcmBsveEYMxOZ0VRi32",
+                        "profile": {
+                          "name": "Koffee"
+                        }
+                      }
+                    ]
+                  },
+                  "partnerLinks": {
+                    "items": [
+                      {
+                        "partnerName": "Songkick",
+                        "url": "https://www.songkick.com/concerts/40193478-harry-styles-at-pedreira-paulo-leminski?utm_source=8123&utm_medium=partner&utm_content=&utm_campaign=artist"
+                      }
+                    ]
+                  },
+                  "date": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 10,
+                    "hour": 20,
+                    "minute": 0,
+                    "second": 0,
+                    "isoString": "2022-12-10T20:00-03:00",
+                    "precision": "MINUTE"
+                  }
+                },
+                {
+                  "uri": "spotify:concert:3islQrC4i5rVwsh75rOKWi",
+                  "id": "3islQrC4i5rVwsh75rOKWi",
+                  "title": "Harry Styles with Koffee at Allianz Parque (December 13, 2022)",
+                  "category": "CONCERT",
+                  "festival": false,
+                  "nearUser": false,
+                  "venue": {
+                    "name": "Allianz Parque",
+                    "location": {
+                      "name": "São Paulo"
+                    },
+                    "coordinates": {
+                      "latitude": -23.52581,
+                      "longitude": -46.67896
+                    }
+                  },
+                  "artists": {
+                    "items": [
+                      {
+                        "uri": "spotify:artist:6KImCVD70vtIoJWnq6nGn3",
+                        "id": "6KImCVD70vtIoJWnq6nGn3",
+                        "profile": {
+                          "name": "Harry Styles"
+                        }
+                      },
+                      {
+                        "uri": "spotify:artist:1gWjcmBsveEYMxOZ0VRi32",
+                        "id": "1gWjcmBsveEYMxOZ0VRi32",
+                        "profile": {
+                          "name": "Koffee"
+                        }
+                      }
+                    ]
+                  },
+                  "partnerLinks": {
+                    "items": [
+                      {
+                        "partnerName": "Songkick",
+                        "url": "https://www.songkick.com/concerts/40604981-harry-styles-at-allianz-parque?utm_source=8123&utm_medium=partner&utm_content=&utm_campaign=artist"
+                      }
+                    ]
+                  },
+                  "date": {
+                    "year": 2022,
+                    "month": 12,
+                    "day": 13,
+                    "hour": 16,
+                    "minute": 0,
+                    "second": 0,
+                    "isoString": "2022-12-13T16:00-03:00",
+                    "precision": "MINUTE"
+                  }
+                }
+              ],
+              "pagingInfo": {
+                "limit": 4
+              }
+            }
+          },
+          "merch": {
+            "items": [
+              {
+                "uri": "2470183",
+                "description": "Limited Edition Event T from the Love On Tour residency in NYC. Only available while supplies last. *This is a preorder item expected to ship January 2023. Your order will ship when all items are in stock.",
+                "imageUri": "https://merch-img.scdn.co/https%3A%2F%2Fmerchbar.imgix.net%2Fproduct%2F33%2F4838%2F6820314611781%2FaSpdU5NVH-NYC.png%3Fdpr%3D2%26w%3D640%26h%3D640?h=300&w=300&s=c0e51143e176375ab5ea07826a85e84a",
+                "name": "Love On Tour NYC Show Tee",
+                "url": "https://www.merchbar.com/pop/harry-styles/harry-styles-love-on-tour-nyc-show-tee?utm_source=merchbar-spotify&utm_medium=affiliate&mb-listing-id=2470183v2274"
+              },
+              {
+                "uri": "2371210",
+                "description": "“Harry’s House is the third solo studio album from Grammy award-winning global superstar Harry Styles. The 13-track full-length album was recorded in multiple locations across the UK, Los Angeles and Tokyo from 2020 to 2021. It was written by Harry alongside frequent collaborators Kid Harpoon, Tyler Johnson, and Mitch Rowland.” Tracklist • Music For A Sushi Restaurant • Late Night Talking • Grapejuice • As It Was • Daylight • Little Freak • Matilda • Cinema • Daydreaming • Keep Driving • Satellite • Boyfriends • Love Of My Life Protection Each record is protected within its record sleeve by a white vellum anti-dust sleeve. Packaging All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands.",
+                "imageUri": "https://merch-img.scdn.co/https%3A%2F%2Fmerchbar.imgix.net%2Fproduct%2Fvinylized%2Fupc%2F48%2F194399974810.jpg%3Fblend64%3DaHR0cHM6Ly9tZXJjaGJhci5pbWdpeC5uZXQvfnRleHQ_dHh0LWZvbnQ9c2Fucy1zZXJpZi1ib2xkJnR4dC1jb2xvcj1mZmYmdHh0LXNpemU9NjQmdHh0LXBhZD0xNiZ3PTMyMCZiZz1mNzMxMTkmZHByPTImdHh0LWFsaWduPW1pZGRsZSUyQ2NlbnRlciZ0eHQ2ND1UMDRnVTBGTVJRJTNEJTNE%26blend-mode%3Dnormal%26blend-align%3Dbottom%2Cleft%26dpr%3D2%26blend-w%3D0.75%26w%3D640%26h%3D640?h=300&w=300&s=a06bf051079910185801301fcdf270ce",
+                "name": "Harry's House Vinyl Record",
+                "url": "https://www.merchbar.com/pop/harry-styles/harry-styles-harry-s-house-vinyl-record-2371210?utm_source=merchbar-spotify&utm_medium=affiliate&mb-listing-id=2371210v2274"
+              },
+              {
+                "uri": "1869092",
+                "description": "Harry Styles, the highly anticipated self-titled debut album from the global superstar. The ten track album features the lead single \"Sign of the Times,\" which topped the charts in over 80 countries upon its release day. \"Sign of the Times\" was produced by Jeff Bhasker and co-written by Styles, with additional production by Alex Salibian and Tyler Johnson. The album is available digitally, and in three physical formats: a LIMITED EDITION HARDCOVER BOOK version of the CD featuring 32 pages of exclusive images from the recording process, a standard package CD, and a vinyl LP version in a gatefold jacket. Protection Each record is protected within its record sleeve by a white vellum anti-dust sleeve. Packaging All items are shipped brand-new and unopened in original packaging. Every record is shipped in original factory-applied shrink wrap and has never been touched by human hands.",
+                "imageUri": "https://merch-img.scdn.co/https%3A%2F%2Fmerchbar.imgix.net%2Fproduct%2Fvinylized%2Fupc%2F03%2F889854390310.jpg%3Fblend64%3DaHR0cHM6Ly9tZXJjaGJhci5pbWdpeC5uZXQvfnRleHQ_dHh0LWZvbnQ9c2Fucy1zZXJpZi1ib2xkJnR4dC1jb2xvcj1mZmYmdHh0LXNpemU9NjQmdHh0LXBhZD0xNiZ3PTMyMCZiZz1mNzMxMTkmZHByPTImdHh0LWFsaWduPW1pZGRsZSUyQ2NlbnRlciZ0eHQ2ND1UMDRnVTBGTVJRJTNEJTNE%26blend-mode%3Dnormal%26blend-align%3Dbottom%2Cleft%26dpr%3D2%26blend-w%3D0.75%26w%3D640%26h%3D640?h=300&w=300&s=ba32ac2d8dfeeec6c13d90813eeff307",
+                "name": "Harry Styles Vinyl Record",
+                "url": "https://www.merchbar.com/pop/harry-styles/harry-styles-vinyl-record-1869092?utm_source=merchbar-spotify&utm_medium=affiliate&mb-listing-id=1869092v2274"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "extensions": {
+      "cacheControl": {
+        "version": 1,
+        "hints": []
+      }
+    }
+  }
