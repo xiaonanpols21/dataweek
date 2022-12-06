@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 
 // Fetch data
 const urls = ["./data/overview-bts.json", "./data/overview-hs.json"];
+
 Promise.all(urls.map(u => fetch(u)))
   .then(responses => Promise.all(responses.map((res) => res.json())))
   .then(data => {
@@ -23,6 +24,7 @@ Promise.all(urls.map(u => fetch(u)))
     console.log(tracks)
 
     // Monthly listeners
+    
     const listeners = [];
     data.forEach(item => {
         listeners.push(item.data.artist.stats.monthlyListeners);

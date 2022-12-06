@@ -11,7 +11,7 @@ We are Melissa and Xiao Nan. Vis Trach and Tech Trach. We are students of HvA do
 We are making a data visualization about music, BTS and Harry styles. Those two different artists are being placed and compared with each other.
 
 ## What is your concept?
-Our concept is to make a website (one page) where the 3 subjects are placed from the dataset from [Rapid API Spotify]( https://rapidapi.com/Glavier/api/spotify23/)
+Our concept is to make a website (one page) where the 3 subjects are placed from the dataset from [Rapid API Spotify](https://rapidapi.com/Glavier/api/spotify23/)
 
 * Monthly listeners
 * Top tracks
