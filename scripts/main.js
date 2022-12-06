@@ -37,6 +37,18 @@ Promise.all(urls.map(u => fetch(u)))
     });
     console.log(listeners);
 
+    // How many icons do I need?
+    const lBts = listeners[0];
+    const lHs = listeners[1];
+
+    const divide = 200000;
+
+    const amountBts = Math.round(parseInt(lBts)/parseInt(divide));
+    const amountHs = Math.round(parseInt(lHs)/parseInt(divide));
+
+    console.log(amountBts)
+    console.log(amountHs)
+
     // Top 5 cities
     const city = [];
     data.forEach(item => {
@@ -62,6 +74,7 @@ Promise.all(urls.map(u => fetch(u)))
     // Use data in another function
     dVisuals(visualsBts, visualsHs);
     dTracks(sliceTrackBts, sliceTrackHs);
+    dListeners(amountBts, amountHs);
   });
 
 function dVisuals(visualsBts, visualsHs) {
@@ -104,5 +117,29 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
             <p>${artist}</p>
         </article>`;
         galHs.insertAdjacentHTML("beforeend", html);
+    });
+};
+
+/*
+https://codepen.io/mikeK/pen/rNxRNJd?editors=1010
+scroll trigger gsap https://greensock.com/forums/topic/25337-toggleclass-on-elements-entering-viewport-with-scrolltrigger/
+https://stackoverflow.com/questions/43269994/javascript-how-can-i-loop-through-a-multi-digit-number-and-find-the-consecutive
+
+forloop of foreach voor dupliceren van icon
+het antal als losse cijfers in eigen array
+https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
+
+
+*/
+
+function dListeners(amountBts, amountHs) {
+    const game = document.querySelector(".game article");
+
+    // ForEach tracks BTS
+    amountBts.forEach(item => {
+        
+        const html = 
+        `<i class="fa-sharp fa-solid fa-person-dress"></i>`;
+        game.insertAdjacentHTML("beforeend", html);
     });
 };

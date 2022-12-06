@@ -1,0 +1,36 @@
+.listeners {
+    background: $bg-color;
+
+    .sec-titles {
+        padding: 25px 50px;
+        margin: auto;
+        width: fit-content;
+        background-color: $white;
+    }
+}
+
+.listeners-legenda {
+    @include flex(row, 10px);
+    align-items: center;
+    padding: 15px;
+    margin: 25px auto 80px auto;
+    width: fit-content;
+    background-color: $white;
+
+    i {
+        font-size: 30px;
+    }
+}
+
+.game {
+    @include gridClmn(1fr 1fr, 50px);
+
+    article {
+        @include gridClmn(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 20px);
+        margin: auto;
+
+        i {
+            font-size: 40px;
+        }
+    }
+}
