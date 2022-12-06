@@ -1,2 +1,13 @@
 @import "./variables";
 @import "./breakpoints";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: $bg-color;
+    font-family: $font-stack;
+}

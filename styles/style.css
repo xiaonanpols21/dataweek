@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #ff0000), color-stop(50%, #0000ff));
+  background: linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+  font-family: "Poppins", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
