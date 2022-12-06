@@ -1,13 +1,56 @@
 @import "./variables";
+@import "./header";
+@import "./tracks";
 @import "./breakpoints";
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    background: $bg-color;
     font-family: $font-stack;
+    color: $black;
+}
+
+p {
+    @include font15;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.sec-titles {
+    text-align: center;
+
+    h2 {
+        @include font59;
+    }
+
+    p {
+        @include font25;
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    span {
+        @include font15;
+        margin-left: 10px;
+    }
+}
+
+.sec {
+    padding: 40px 80px;
+}
+
+.tracks {
+    padding: 40px 60px;
 }

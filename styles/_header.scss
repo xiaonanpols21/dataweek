@@ -1,0 +1,74 @@
+header {
+    @include justFlex(space-around);
+    position: relative;
+    padding: 60px 80px 60px 80px;
+    background: $bg-color;
+
+    article {
+        position: relative;
+        width: 580px;
+        margin: 20px;
+
+        & > div {
+            position: relative;
+            width: fit-content;
+        }
+
+        & > p {
+            &:first-of-type {
+                @include font25;
+            }
+        }
+    }
+
+    a {
+        position: absolute;
+        display: block;
+        bottom: 30px;
+        width: 40px;
+        height: 40px;
+        background-color: $white;
+        border-radius: 10px;
+        color: $black;
+
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+    }
+}
+
+h1 {
+    @include font59;
+    margin-bottom: 10px;
+}
+
+.h-txt {
+    @include flex(column, 10px);
+}
+
+.img-user {
+    position: absolute;
+    right: calc(-110px / 2);
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.img-artist {
+    width: 460px;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.xn {
+    top: calc(-50px);
+}
+
+.ms {
+    bottom: calc(-20px);
+}

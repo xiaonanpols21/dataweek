@@ -1,3 +1,59 @@
 $font-stack: 'Poppins', sans-serif;
 
-$bg-color: linear-gradient(to left, #ff0000 50%, #0000ff 50%);
+$purple: #B7B5DA;
+$beige: #ECDBB9;
+$black: #36353D;
+
+$white: white;
+
+$grayBlack: #696789;
+$grayLight: #E0E0E0;
+
+$bg-color: linear-gradient(to left, $beige 50%, $purple 50%);
+
+@mixin font59 {
+    font-size: 59px;
+    line-height: 70px;
+}
+
+@mixin font50 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+@mixin font25 {
+    font-size: 25px;
+    line-height: 38px;
+}
+
+@mixin font20 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+@mixin font15 {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+@mixin font15 {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+@mixin flex($direction, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin justFlex($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+@mixin gridClmn($clmn, $gap) {
+    display: grid;
+    grid-template-columns: $clmn;
+    gap: $gap;
+}
