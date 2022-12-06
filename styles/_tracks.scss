@@ -19,9 +19,24 @@
         @include font15;
         font-weight: normal
     }
+
+    article {
+        &:first-of-type {
+            h3 {
+                color: $purpleDark;
+            }
+        }
+
+        &:last-of-type {
+            h3 {
+                color: $beigeDark;
+            }
+        }
+    }
 }
 
 .gallery {
+    position: relative;
     @include gridClmn(1fr 1fr, 30px);
 
     article {
@@ -52,6 +67,18 @@
         grid-row-start: 1;
         grid-row-end: 4;
     }
+
+    button {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        width: 55px;
+        height: 55px;
+        font-size: 25px;
+        background-color: $grayBlack;
+        color: $white;
+        border: none;
+    }
 }
 
 .our-fave {
@@ -66,6 +93,18 @@
 
     article {
         @include gridClmn(90px 1fr, 10px 30px);
+
+        &:first-of-type {
+            p:first-of-type {
+                color: $purpleDark;
+            }
+        }
+
+        &:last-of-type {
+            p:first-of-type {
+                color: $beigeDark;
+            }
+        }
 
         p:nth-of-type(1) {
             grid-column-start: 2;
@@ -86,7 +125,7 @@
     bottom: 40px;
     transform: translateX(-50%);
     display: block;
-    width: 10px;
+    width: 5px;
     height: 780px;
     background-color: rgba($grayLight, 0.3)
 }
