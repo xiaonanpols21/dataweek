@@ -3,67 +3,83 @@ import * as d3 from 'd3';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-const dataSet = [
-	{
-        "id": 2,
-		"city": "Macixo City", 
-		"numberOfListeners": 672533,
-		"x": 124,
-		"y": 225,
-	},
-    {
-        "id": 3,
-		"city": "Delhi", 
-		"numberOfListeners": 567216,
-		"x": 790,
-		"y": 218,
-	},
-	{
-        "id": 4,
-		"city": "Mumbai", 
-		"numberOfListeners": 548200,
-		"x": 770,
-		"y": 247,
-	},
-	{
-        "id": 5,
-		"city": "Santiago", 
-		"numberOfListeners": 519323,
-		"x": 240,
-		"y": 419,
-	},
-];
+function dCity(newCityBts, newCityHs) {
+    const xScale = d3.scaleBand().rangeRound([[0, 1200]]).padding(0.1); // 1200 omdat width in sass 1200 is
+    const yScale = d3.scaleLinear().domain([0, 940000]).range(544.51, 0); // 940000 omdat dat hoogste value is van de cities. 544,51 omdat dat height is in sass
 
-const dataSet2 = [
-	{
-        "id": 2,
-		"city": "Macixo City", 
-		"numberOfListeners": 1389887,
-		"x": 150,
-		"y": 217,
-	},
-    {
-        "id": 3,
-		"city": "Jakarta", 
-		"numberOfListeners": 999401,
-		"x": 880,
-		"y": 320,
-	},
-	{
-        "id": 4,
-		"city": "São Paulo", 
-		"numberOfListeners": 900673,
-		"x": 320,
-		"y": 439,
-	},
-	{
-        "id": 5,
-		"city": "Santiago", 
-		"numberOfListeners": 824112,
-		"x": 240,
-		"y": 445,
-	},
-];
+    // BTS
+    // Circles
+    d3.select(".map-bts")
+        .selectAll("circle")
+        .data(newCityBts)
+        .join("circle")
+        .attr("cx", function (data) {
+            return data.x;
+        })
+        .attr("cy", function (data) {
+            return data.y;
+        })
+        // Bron: https://www.dashingd3js.com/d3-tutorial/using-the-svg-coordinate-space-with-d3-js
+        .attr("r", 13)
+        .style('fill', '#BDBBDD')
+
+        .on("mouseover", (e, d) => {
+            const prettyNumber = d3.format(",")(d.numberOfListeners).replace(",", ".");
+
+            d3
+            .select(".tooltip-bts")
+            .html(`<strong>${d.id}. ${d.city}:</strong> ${prettyNumber}`)
+            .transition()
+            .duration(175)
+            .style("opacity", 1)
+        }
+        )
+        .on("mousemove", (e) =>
+            d3
+            .select(".tooltip-bts")
+            .style("left", e.pageX + 15 + "px")
+            .style("top", e.pageY + 15 + "px")
+        )
+        .on("mouseout", e => d3.select(".tooltip-bts").style("opacity", 0)
+        );
+    ;
+
+    // Harry Styles
+    // Circles
+    d3.select(".map-hs")
+        .selectAll("circle")
+        .data(newCityHs)
+        .join("circle")
+        .attr("cx", function (data) {
+            return data.x;
+        })
+        .attr("cy", function (data) {
+            return data.y;
+        })
+        .attr("r", 13)
+        .style('fill', '#B2A383')
+
+        .on("mouseover", (e, d) => {
+            const prettyNumber = d3.format(",")(d.numberOfListeners).replace(",", ".");
+
+            d3
+            .select(".tooltip-hs")
+            .html(`<strong>${d.id}. ${d.city}:</strong> ${prettyNumber}`)
+            .transition()
+            .duration(175)
+            .style("opacity", 1)
+        }  
+        )
+        .on("mousemove", (e) =>
+            d3
+            .select(".tooltip-hs")
+            .style("left", e.pageX + 15 + "px")
+            .style("top", e.pageY + 15 + "px")
+        )
+        .on("mouseout", e => d3.select(".tooltip-hs").style("opacity", 0)
+        );
+    ;
+};
 
 const heart = [
     {
@@ -83,84 +99,6 @@ const heart = [
 
 	},
 ];
-
-const xScale = d3.scaleBand().rangeRound([[0, 1200]]).padding(0.1); // 1200 omdat width in sass 1200 is
-const yScale = d3.scaleLinear().domain([0, 940000]).range(544.51, 0); // 940000 omdat dat hoogste value is van de cities. 544,51 omdat dat height is in sass
-
-// BTS
-// Circles
-d3.select(".map-bts")
-	.selectAll("circle")
-	.data(dataSet)
-	.join("circle")
-	.attr("cx", function (data) {
-		return data.x;
-	})
-	.attr("cy", function (data) {
-		return data.y;
-	})
-	// Bron: https://www.dashingd3js.com/d3-tutorial/using-the-svg-coordinate-space-with-d3-js
-	.attr("r", 13)
-	.style('fill', '#BDBBDD')
-
-    .on("mouseover", (e, d) => {
-        const prettyNumber = d3.format(",")(d.numberOfListeners).replace(",", ".");
-
-        d3
-        .select(".tooltip-bts")
-        .html(`<strong>${d.id}. ${d.city}:</strong> ${prettyNumber}`)
-        .transition()
-        .duration(175)
-        .style("opacity", 1)
-    }
-        
-    )
-    .on("mousemove", (e) =>
-        d3
-        .select(".tooltip-bts")
-        .style("left", e.pageX + 15 + "px")
-        .style("top", e.pageY + 15 + "px")
-    )
-    .on("mouseout", e => d3.select(".tooltip-bts").style("opacity", 0)
-    );
-;
-
-// Harry Styles
-// Circles
-d3.select(".map-hs")
-	.selectAll("circle")
-	.data(dataSet2)
-	.join("circle")
-	.attr("cx", function (data) {
-		return data.x;
-	})
-	.attr("cy", function (data) {
-		return data.y;
-	})
-	.attr("r", 13)
-	.style('fill', '#B2A383')
-
-    .on("mouseover", (e, d) => {
-        const prettyNumber = d3.format(",")(d.numberOfListeners).replace(",", ".");
-
-        d3
-        .select(".tooltip-hs")
-        .html(`<strong>${d.id}. ${d.city}:</strong> ${prettyNumber}`)
-        .transition()
-        .duration(175)
-        .style("opacity", 1)
-    }
-        
-    )
-    .on("mousemove", (e) =>
-        d3
-        .select(".tooltip-hs")
-        .style("left", e.pageX + 15 + "px")
-        .style("top", e.pageY + 15 + "px")
-    )
-    .on("mouseout", e => d3.select(".tooltip-hs").style("opacity", 0)
-    );
-;
 
 // Heart
 // Bron: http://using-d3js.com/05_10_symbols.html
@@ -188,8 +126,7 @@ d3.select('.map-heart')
         .transition()
         .duration(175)
         .style("opacity", 1)
-    }
-        
+    } 
     )
     .on("mousemove", (e) =>
         d3
@@ -236,3 +173,7 @@ d3.select(".legenda-2")
     .attr("alignment-baseline","middle")
 ;
 // Bron: https://d3-graph-gallery.com/graph/custom_legend.html
+
+export {
+    dCity
+}
