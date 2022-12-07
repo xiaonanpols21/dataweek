@@ -3,7 +3,15 @@
     margin-top: 40px;
 
     .sec-titles {
-        margin-bottom: 30px;
+        p {
+            @include justFlex(center);
+            align-items: center;
+        }
+
+        span {
+            @include font15;
+            margin-left: 10px;
+        }
     }
 }
 

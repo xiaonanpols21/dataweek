@@ -1,3 +1,33 @@
+@-webkit-keyframes go-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes go-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,6 +67,16 @@ header a {
   background-color: white;
   border-radius: 10px;
   color: #36353D;
+  -webkit-animation-name: go-down;
+          animation-name: go-down;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
 }
 
 header a i {
@@ -95,8 +135,22 @@ h1 {
   margin-top: 40px;
 }
 
-.tracks .sec-titles {
-  margin-bottom: 30px;
+.tracks .sec-titles p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tracks .sec-titles span {
+  font-size: 15px;
+  line-height: 25px;
+  margin-left: 10px;
 }
 
 .tracks-container {
@@ -380,6 +434,18 @@ h1 {
   margin-left: auto;
 }
 
+.st0 {
+  fill: #626267;
+}
+
+.map-data {
+  position: absolute;
+}
+
+.map-container {
+  position: relative;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -409,6 +475,7 @@ img {
 
 .sec-titles {
   text-align: center;
+  margin-bottom: 80px;
 }
 
 .sec-titles h2 {
@@ -419,21 +486,6 @@ img {
 .sec-titles p {
   font-size: 25px;
   line-height: 38px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.sec-titles span {
-  font-size: 15px;
-  line-height: 25px;
-  margin-left: 10px;
 }
 
 .sec {
