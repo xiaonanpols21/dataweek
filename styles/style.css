@@ -372,6 +372,14 @@ h1 {
   line-height: 70px;
 }
 
+#bts-tooltip {
+  margin-right: auto;
+}
+
+#hs-tooltip {
+  margin-left: auto;
+}
+
 * {
   margin: 0px;
   padding: 0px;

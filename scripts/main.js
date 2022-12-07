@@ -1,8 +1,6 @@
 import '../styles/style.css'
+import * as f from "./functions-data.js";
 import * as d3 from 'd3';
-
-import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
 
 // Fetch data
 // Bron: https://stackoverflow.com/questions/31710768/how-can-i-fetch-an-array-of-urls-with-promise-all
@@ -95,117 +93,10 @@ Promise.all(urls.map(u => fetch(u)))
     console.log(visualsHs);
 
     // Use data in another function
-    dVisuals(visualsBts, visualsHs);
-    dTracks(sliceTrackBts, sliceTrackHs);
-    dListeners(iconsAmountBts, iconsAmountHs);
-    dListTooltip(names, amountListeners);
+    f.dVisuals(visualsBts, visualsHs);
+    f.dTracks(sliceTrackBts, sliceTrackHs);
+    f.dListeners(iconsAmountBts, iconsAmountHs);
+    f.dListTooltip(names, listeners);
   });
 
-// Get header images
-function dVisuals(visualsBts, visualsHs) {
-    const imgBts = document.querySelector("#h-img-bts");
-    const imgHs = document.querySelector("#h-img-hs");
-
-    imgBts.src = visualsBts[1].url;
-    imgHs.src = visualsHs[0].url;
-};
-
-// Tracks
-function dTracks(sliceTrackBts, sliceTrackHs) {
-    const galBts = document.querySelector("#galBts");
-    const galHs = document.querySelector("#galHs");
-
-    // ForEach tracks BTS
-    sliceTrackBts.forEach(item => {
-        const img = item.track.album.coverArt.sources[0].url;
-        const name = item.track.name;
-        const artist = item.track.artists.items[0].profile.name;
-
-        const html = 
-        `<article>
-            <img src="${img}" alt="Fallback">
-            <h4>${name}</h4>
-            <p>${artist}</p>
-        </article>`;
-        galBts.insertAdjacentHTML("beforeend", html);
-    });
-
-    // ForEach tracks Harry Styles
-    sliceTrackHs.forEach(item => {
-        const img = item.track.album.coverArt.sources[0].url;
-        const name = item.track.name;
-        const artist = item.track.artists.items[0].profile.name;
-
-        const html = 
-        `<article>
-            <img src="${img}" alt="Fallback">
-            <h4>${name}</h4>
-            <p>${artist}</p>
-        </article>`;
-        galHs.insertAdjacentHTML("beforeend", html);
-    });
-};
-
-// Listeners show icons
-function dListeners(iconsAmountBts, iconsAmountHs) {
-    const listenersBts = document.querySelector(".icon article:first-of-type");
-    const listenersHs = document.querySelector(".icon article:last-of-type");
-
-    // ForEach Listeners BTS
-    iconsAmountBts.forEach(item => {
-      const html = `<i class="fa-sharp fa-solid fa-person-dress bts-icon"></i>`;
-      listenersBts.insertAdjacentHTML("beforeend", html);
-      addEvents(html);
-    });
-
-    // ForEach Listeners BTS
-    iconsAmountHs.forEach(item => {
-        const html = `<i class="fa-sharp fa-solid fa-person-dress hs-icon"></i>`;
-        listenersHs.insertAdjacentHTML("beforeend", html);
-        addEvents(html);
-    });
-};
-
-// Listeners tooltip
-function dListTooltip(names, amountListeners) {
-    const nameBts = document.querySelector("#bts-tooltip h3");
-    const nameHs = document.querySelector("#hs-tooltip h3");
-
-    const amountBts = document.querySelector("#bts-tooltip h4");
-    const amountHs = document.querySelector("#hs-tooltip h4");
-
-    nameBts.textContent = names[0];
-    nameHs.textContent = names[1];
-
-    amountBts.textContent = amountListeners[0];
-    amountHs.textContent = amountListeners[1];
-};
-
-// Icon amination
-// Bron: https://www.youtube.com/watch?v=WEky7V490Rs&list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp&ab_channel=TheCodeCreative
-function addEvents(element) {
-    gsap.registerPlugin(ScrollTrigger);
-
-    gsap.fromTo(".bts-icon", 
-        {
-            opacity: 0,
-        },
-        {
-            opacity: 1,
-            stagger: 0.1,
-            scrollTrigger: ".bts-icon"
-        }
-    );
-
-    gsap.fromTo(".hs-icon", 
-    {
-        opacity: 0,
-    },
-    {
-        opacity: 1,
-        stagger: 0.1,
-        scrollTrigger: ".hs-icon"
-    }
-);
-};
 
