@@ -30,6 +30,7 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
             <p>${artist}</p>
         </article>`;
         galBts.insertAdjacentHTML("beforeend", html);
+        g.trackAnimate(html);
     });
 
     // ForEach tracks Harry Styles
@@ -45,6 +46,7 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
             <p>${artist}</p>
         </article>`;
         galHs.insertAdjacentHTML("beforeend", html);
+        g.trackAnimate(html);
     });
 };
 
@@ -57,14 +59,14 @@ function dListeners(iconsAmountBts, iconsAmountHs) {
     iconsAmountBts.forEach(item => {
       const html = `<i class="fa-sharp fa-solid fa-person-dress bts-icon"></i>`;
       listenersBts.insertAdjacentHTML("beforeend", html);
-      g.addEvents(html);
+      g.iconAnimate(html);
     });
 
     // ForEach Listeners BTS
     iconsAmountHs.forEach(item => {
         const html = `<i class="fa-sharp fa-solid fa-person-dress hs-icon"></i>`;
         listenersHs.insertAdjacentHTML("beforeend", html);
-        g.addEvents(html);
+        g.iconAnimate(html);
     });
 };
 

@@ -1,14 +1,16 @@
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
+gsap.registerPlugin(ScrollTrigger);
+const animation = gsap.timeline();
+
 // Icon amination
 // Bron: https://www.youtube.com/watch?v=WEky7V490Rs&list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp&ab_channel=TheCodeCreative
-function addEvents(element) {
+function iconAnimate(element) {
     // Don't see warnings
     // Bron: https://greensock.com/forums/topic/22836-gsap-3-warnings/
     gsap.config({nullTargetWarn:false});
 
-    gsap.registerPlugin(ScrollTrigger);
     gsap.fromTo(".bts-icon", 
         {
             opacity: 0,
@@ -31,8 +33,50 @@ function addEvents(element) {
     );
 };
 
+// Tracks
+function trackAnimate(element) {
+    // Tracks
+    gsap.fromTo("#galBts article", 
+    {
+        opacity: 0
+    }, {
+        opacity: 1,
+        duration: 0.7,
+        stagger: 0.7,
+        scrollTrigger: "#galBts article"
+    }
+    );
+
+    gsap.fromTo("#galHs article", 
+    {
+        opacity: 0
+    }, {
+        opacity: 1,
+        duration: 0.7,
+        stagger: 0.7,
+        scrollTrigger: "#galHs article"
+    }
+    );
+};
+
+// Our fave
+animation  
+    .fromTo(".our-fave img", 
+        {
+            scale: 0,
+            opacity: 0,
+            rotation: 360
+        }, {
+            scale: 1,
+            opacity: 1,
+            rotation: 0,
+            duration: 2,
+            scrollTrigger: ".our-fave img"
+        }
+    )
+;
+
 // Header
-const animation = gsap.timeline();
 animation
     .fromTo(".img-artist", 
         {
@@ -64,7 +108,7 @@ animation
     )
 ;
 
-gsap.fromTo(".h-text p", 
+gsap.fromTo(".bts-txt p", 
     {
         y: -50,
         opacity: 0
@@ -72,10 +116,25 @@ gsap.fromTo(".h-text p",
     }, {
         y: 0,
         opacity: 1,
-        
+        duration: 0.5,
+        stagger: 0.5
+    }
+);
+
+gsap.fromTo(".hs-txt p", 
+    {
+        y: -50,
+        opacity: 0
+
+    }, {
+        y: 0,
+        opacity: 1,
+        duration: 0.5,
+        stagger: 0.5
     }
 );
 
 export {
-    addEvents
+    iconAnimate,
+    trackAnimate
 }
