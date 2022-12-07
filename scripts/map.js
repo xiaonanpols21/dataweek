@@ -1,5 +1,8 @@
 import * as d3 from 'd3';
 
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
 const dataSet = [
 	{
         "id": 2,
@@ -79,8 +82,7 @@ const heart = [
 		"y": 100,
 
 	},
-]
-
+];
 
 const xScale = d3.scaleBand().rangeRound([[0, 1200]]).padding(0.1); // 1200 omdat width in sass 1200 is
 const yScale = d3.scaleLinear().domain([0, 940000]).range(544.51, 0); // 940000 omdat dat hoogste value is van de cities. 544,51 omdat dat height is in sass
