@@ -22,15 +22,57 @@
     }
 }
 
-.game {
+.icon {
     @include gridClmn(1fr 1fr, 50px);
 
     article {
         @include gridClmn(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 20px);
-        margin: auto;
+        height: fit-content;
+
+        &:first-of-type {
+            margin-right: auto;
+        }
+
+        &:last-of-type {
+            margin-left: auto;
+        }
+        &:first-of-type {
+            margin-right: auto;
+        }
 
         i {
             font-size: 40px;
         }
+    }
+}
+
+.tooltip-container {
+    @include justFlex(space-around);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 10px;
+}
+
+.tooltip-listeners {
+    @include flex(column, 0px);
+    padding: 25px;
+    width: 540px;
+    background-color: $white;
+    text-align: center;
+
+    h3 {
+        @include font25;
+        font-weight: normal;
+
+        &:first-of-type {
+            order: -1;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    h4 {
+        order: -1;
+        @include font59;
     }
 }

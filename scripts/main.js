@@ -1,11 +1,23 @@
 import '../styles/style.css'
 import * as d3 from 'd3';
 
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
 // Fetch data
+// Bron: https://stackoverflow.com/questions/31710768/how-can-i-fetch-an-array-of-urls-with-promise-all
 const urls = ["./data/overview-bts.json", "./data/overview-hs.json"];
 Promise.all(urls.map(u => fetch(u)))
   .then(responses => Promise.all(responses.map((res) => res.json())))
   .then(data => {
+    console.log(data);
+
+    // Names
+    const names = [];
+    data.forEach(item => {
+        names.push(item.data.artist.profile.name);
+    });
+    console.log(names);
 
     // Top tracks
     // BTS
@@ -13,29 +25,25 @@ Promise.all(urls.map(u => fetch(u)))
     data[0].data.artist.discography.topTracks.items.forEach(item => {
         tracksBts.push(item);
     });
-    console.log(tracksBts)
 
     // Get only the first 4 tracks
+    // Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
     const sliceTrackBts = tracksBts.slice(0, 4);
-    console.log(sliceTrackBts)
 
     // Harry Styles
     const tracksHs = [];
     data[1].data.artist.discography.topTracks.items.forEach(item => {
         tracksHs.push(item);
     });
-    console.log(tracksHs)
 
     // Get only the first 4 tracks
     const sliceTrackHs = tracksHs.slice(0, 4);
-    console.log(sliceTrackHs)
 
     // Monthly listeners
     const listeners = [];
     data.forEach(item => {
         listeners.push(item.data.artist.stats.monthlyListeners);
     });
-    console.log(listeners);
 
     // How many icons do I need?
     const lBts = listeners[0];
@@ -43,11 +51,18 @@ Promise.all(urls.map(u => fetch(u)))
 
     const divide = 200000;
 
+    // Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/round
+    // Bron: https://linuxhint.com/divide-two-numbers-in-javascript/#:~:text=For%20the%20division%20of%20two,using%20the%20division%20(%2F)%20operator.
     const amountBts = Math.round(parseInt(lBts)/parseInt(divide));
     const amountHs = Math.round(parseInt(lHs)/parseInt(divide));
 
-    console.log(amountBts)
-    console.log(amountHs)
+    // Numbers in object
+    // Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+    const iconsAmountBts = Array.from({length: amountBts}, (_, i) => i + 1);
+    console.log(iconsAmountBts);
+
+    const iconsAmountHs = Array.from({length: amountHs}, (_, i) => i + 1);
+    console.log(iconsAmountHs);
 
     // Top 5 cities
     const city = [];
@@ -74,9 +89,11 @@ Promise.all(urls.map(u => fetch(u)))
     // Use data in another function
     dVisuals(visualsBts, visualsHs);
     dTracks(sliceTrackBts, sliceTrackHs);
-    dListeners(amountBts, amountHs);
+    dListeners(iconsAmountBts, iconsAmountHs);
+    dListTooltip(names, listeners);
   });
 
+// Get header images
 function dVisuals(visualsBts, visualsHs) {
     const imgBts = document.querySelector("#h-img-bts");
     const imgHs = document.querySelector("#h-img-hs");
@@ -120,26 +137,50 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
     });
 };
 
-/*
-https://codepen.io/mikeK/pen/rNxRNJd?editors=1010
-scroll trigger gsap https://greensock.com/forums/topic/25337-toggleclass-on-elements-entering-viewport-with-scrolltrigger/
-https://stackoverflow.com/questions/43269994/javascript-how-can-i-loop-through-a-multi-digit-number-and-find-the-consecutive
+function dListeners(iconsAmountBts, iconsAmountHs) {
+    const listenersBts = document.querySelector(".icon article:first-of-type");
+    const listenersHs = document.querySelector(".icon article:last-of-type");
 
-forloop of foreach voor dupliceren van icon
-het antal als losse cijfers in eigen array
-https://stackoverflow.com/questions/3746725/how-to-create-an-array-containing-1-n
+    // ForEach Listeners BTS
+    iconsAmountBts.forEach(item => {
+      const html = `<i class="fa-sharp fa-solid fa-person-dress bts-icon"></i>`;
+      listenersBts.insertAdjacentHTML("beforeend", html);
+      //addEvents(html);
+    });
 
-
-*/
-
-function dListeners(amountBts, amountHs) {
-    const game = document.querySelector(".game article");
-
-    // ForEach tracks BTS
-    amountBts.forEach(item => {
-        
-        const html = 
-        `<i class="fa-sharp fa-solid fa-person-dress"></i>`;
-        game.insertAdjacentHTML("beforeend", html);
+    // ForEach Listeners BTS
+    iconsAmountHs.forEach(item => {
+        const html = `<i class="fa-sharp fa-solid fa-person-dress hs-icon"></i>`;
+        listenersHs.insertAdjacentHTML("beforeend", html);
+        //addEvents(html);
     });
 };
+
+// Icon amination
+// Bron: https://www.youtube.com/watch?v=WEky7V490Rs&list=PLMPgoZdlPumexxtvuPUB3TY7LExI1N_Xp&ab_channel=TheCodeCreative
+function addEvents(element) {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.fromTo(".bts-icon", 
+        {
+            opacity: 0,
+        },
+        {
+            opacity: 1,
+            stagger: 0.1,
+            scrollTrigger: ".bts-icon"
+        }
+    );
+
+    gsap.fromTo(".hs-icon", 
+    {
+        opacity: 0,
+    },
+    {
+        opacity: 1,
+        stagger: 0.1,
+        scrollTrigger: ".hs-icon"
+    }
+);
+};
+
