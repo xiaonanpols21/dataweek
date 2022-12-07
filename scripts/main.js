@@ -17,7 +17,6 @@ Promise.all(urls.map(u => fetch(u)))
     data.forEach(item => {
         names.push(item.data.artist.profile.name);
     });
-    console.log(names);
 
     // Top tracks
     // BTS
@@ -44,6 +43,15 @@ Promise.all(urls.map(u => fetch(u)))
     data.forEach(item => {
         listeners.push(item.data.artist.stats.monthlyListeners);
     });
+    console.log(listeners);
+
+    // Listeners format .
+    // Bron: https://stackoverflow.com/questions/2901102/how-to-format-a-number-with-commas-as-thousands-separators
+    const amountListeners = [];
+    listeners.forEach(item => {
+        amountListeners.push(item.toLocaleString());
+    });
+    console.log(amountListeners);
 
     // How many icons do I need?
     const lBts = listeners[0];
@@ -90,7 +98,7 @@ Promise.all(urls.map(u => fetch(u)))
     dVisuals(visualsBts, visualsHs);
     dTracks(sliceTrackBts, sliceTrackHs);
     dListeners(iconsAmountBts, iconsAmountHs);
-    dListTooltip(names, listeners);
+    dListTooltip(names, amountListeners);
   });
 
 // Get header images
@@ -102,6 +110,7 @@ function dVisuals(visualsBts, visualsHs) {
     imgHs.src = visualsHs[0].url;
 };
 
+// Tracks
 function dTracks(sliceTrackBts, sliceTrackHs) {
     const galBts = document.querySelector("#galBts");
     const galHs = document.querySelector("#galHs");
@@ -137,6 +146,7 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
     });
 };
 
+// Listeners show icons
 function dListeners(iconsAmountBts, iconsAmountHs) {
     const listenersBts = document.querySelector(".icon article:first-of-type");
     const listenersHs = document.querySelector(".icon article:last-of-type");
@@ -145,15 +155,30 @@ function dListeners(iconsAmountBts, iconsAmountHs) {
     iconsAmountBts.forEach(item => {
       const html = `<i class="fa-sharp fa-solid fa-person-dress bts-icon"></i>`;
       listenersBts.insertAdjacentHTML("beforeend", html);
-      //addEvents(html);
+      addEvents(html);
     });
 
     // ForEach Listeners BTS
     iconsAmountHs.forEach(item => {
         const html = `<i class="fa-sharp fa-solid fa-person-dress hs-icon"></i>`;
         listenersHs.insertAdjacentHTML("beforeend", html);
-        //addEvents(html);
+        addEvents(html);
     });
+};
+
+// Listeners tooltip
+function dListTooltip(names, amountListeners) {
+    const nameBts = document.querySelector("#bts-tooltip h3");
+    const nameHs = document.querySelector("#hs-tooltip h3");
+
+    const amountBts = document.querySelector("#bts-tooltip h4");
+    const amountHs = document.querySelector("#hs-tooltip h4");
+
+    nameBts.textContent = names[0];
+    nameHs.textContent = names[1];
+
+    amountBts.textContent = amountListeners[0];
+    amountHs.textContent = amountListeners[1];
 };
 
 // Icon amination
