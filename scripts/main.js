@@ -99,4 +99,22 @@ Promise.all(urls.map(u => fetch(u)))
     f.dListTooltip(names, listeners);
   });
 
+// Play btn
+// Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
+const audioBts = document.querySelector(".audio-bts");
+const audioBtnBts = document.querySelector("#galBts button");
 
+let isPlaying = false;
+
+function playAudio() {
+    isPlaying ? audioBts.pause() : audioBts.play();
+}
+
+audioBts.onplaying = function() {
+    isPlaying = true;
+};
+audioBts.onpause = function() {
+    isPlaying = false;
+};
+
+audioBtnBts.addEventListener("click", playAudio);

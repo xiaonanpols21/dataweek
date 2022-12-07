@@ -85,8 +85,15 @@
         font-size: 25px;
         background-color: $grayBlack;
         color: $white;
-        border: none;
+        border: 1px solid $grayBlack;
         border-radius: 5px;
+        cursor: pointer;
+        transition: .4s;
+
+        &:hover {
+            background-color: transparent;
+            color: $grayBlack;
+        }
     }
 }
 

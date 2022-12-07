@@ -42,12 +42,18 @@ header {
         background-color: $white;
         border-radius: 10px;
         color: $black;
+        transition: .4s;
 
         animation-name: go-down;
         animation-duration: 2s;
-        animation-iteration-count: 2;
+        animation-iteration-count: 5;
         animation-delay: 0s;
         animation-fill-mode: none; 
+
+        &:hover {
+            background-color: $grayBlack;
+            color: $white;
+        }
 
         i {
             position: absolute;

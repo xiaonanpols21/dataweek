@@ -67,16 +67,23 @@ header a {
   background-color: white;
   border-radius: 10px;
   color: #36353D;
+  -webkit-transition: .4s;
+  transition: .4s;
   -webkit-animation-name: go-down;
           animation-name: go-down;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   -webkit-animation-fill-mode: none;
           animation-fill-mode: none;
+}
+
+header a:hover {
+  background-color: #696789;
+  color: white;
 }
 
 header a i {
@@ -243,8 +250,16 @@ h1 {
   font-size: 25px;
   background-color: #696789;
   color: white;
-  border: none;
+  border: 1px solid #696789;
   border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.gallery button:hover {
+  background-color: transparent;
+  color: #696789;
 }
 
 .our-fave {
@@ -543,5 +558,18 @@ img {
 
 .tracks {
   padding: 40px 60px;
+}
+
+.visually-hidden {
+  position: absolute;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 /*# sourceMappingURL=style.css.map */
