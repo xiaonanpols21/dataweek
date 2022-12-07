@@ -132,11 +132,17 @@ Promise.all(urls.map(u => fetch(u)))
 // Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
 const audioBts = document.querySelector(".audio-bts");
 const audioBtnBts = document.querySelector("#galBts button");
+const audioHs = document.querySelector(".audio-hs");
+const audioBtnHs = document.querySelector("#galHs button");
 
 let isPlaying = false;
+let isPlaying2 = false;
 
-function playAudio() {
+function playBts() {
     isPlaying ? audioBts.pause() : audioBts.play();
+}
+function playHs() {
+    isPlaying2 ? audioHs.pause() : audioHs.play();
 }
 
 audioBts.onplaying = function() {
@@ -146,4 +152,12 @@ audioBts.onpause = function() {
     isPlaying = false;
 };
 
-audioBtnBts.addEventListener("click", playAudio);
+audioHs.onplaying = function() {
+    isPlaying2 = true;
+};
+audioHs.onpause = function() {
+    isPlaying2 = false;
+};
+
+audioBtnBts.addEventListener("click", playBts);
+audioBtnHs.addEventListener("click", playHs);

@@ -25,11 +25,12 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
 
         const html = 
         `<article>
-            <img src="${img}" alt="Fallback">
+            <img src="${img}" alt="${name}">
             <h4>${name}</h4>
             <p>${artist}</p>
         </article>`;
         galBts.insertAdjacentHTML("beforeend", html);
+        // Web API, insertAdjacentHTML is om het te tonen in de galBts of galHs. Beforeend betekend: Before the end of the element (last child), W3Schools https://www.w3schools.com/jsref/met_node_insertadjacenthtml.asp
         g.trackAnimate(html);
     });
 
@@ -41,7 +42,7 @@ function dTracks(sliceTrackBts, sliceTrackHs) {
 
         const html = 
         `<article>
-            <img src="${img}" alt="Fallback">
+            <img src="${img}" alt="${name}">
             <h4>${name}</h4>
             <p>${artist}</p>
         </article>`;
