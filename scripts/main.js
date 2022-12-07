@@ -1,6 +1,6 @@
 import '../styles/style.css'
 import * as f from "./functions-data.js";
-import * as d3 from 'd3';
+import * as m from "./map.js";
 
 // Fetch data
 // Bron: https://stackoverflow.com/questions/31710768/how-can-i-fetch-an-array-of-urls-with-promise-all

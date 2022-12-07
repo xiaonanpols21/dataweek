@@ -440,10 +440,59 @@ h1 {
 
 .map-data {
   position: absolute;
+  width: 1200px;
+  height: 544.51px;
+}
+
+.svg-map {
+  width: 1200px;
+  height: 544.51px;
 }
 
 .map-container {
   position: relative;
+}
+
+.map-heart path:first-of-type {
+  fill: #BDBBDD;
+}
+
+.map-heart path:last-of-type {
+  fill: #B2A383;
+}
+
+.tooltip-bts {
+  position: absolute;
+  padding: 15px;
+  background-color: #BDBBDD;
+  border-radius: 5px;
+  opacity: 0;
+  color: #36353D;
+  font-size: 17px;
+  pointer-event: none;
+}
+
+.tooltip-hs {
+  position: absolute;
+  padding: 15px;
+  background-color: #B2A383;
+  border-radius: 5px;
+  opacity: 0;
+  color: #36353D;
+  font-size: 17px;
+  pointer-event: none;
+}
+
+.tooltip-star {
+  position: absolute;
+  padding: 15px;
+  background: -webkit-gradient(linear, right top, left top, color-stop(50%, #EEDDBB), color-stop(50%, #BDBBDD));
+  background: linear-gradient(to left, #EEDDBB 50%, #BDBBDD 50%);
+  border-radius: 5px;
+  opacity: 0;
+  color: #36353D;
+  font-size: 17px;
+  pointer-event: none;
 }
 
 * {
