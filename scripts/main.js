@@ -42,13 +42,6 @@ Promise.all(urls.map(u => fetch(u)))
         listeners.push(item.data.artist.stats.monthlyListeners);
     });
 
-    // Listeners format .
-    // Bron: https://stackoverflow.com/questions/2901102/how-to-format-a-number-with-commas-as-thousands-separators
-    const amountListeners = [];
-    listeners.forEach(item => {
-        amountListeners.push(item.toLocaleString());
-    });
-
     // How many icons do I need?
     const lBts = listeners[0];
     const lHs = listeners[1];
@@ -127,7 +120,6 @@ Promise.all(urls.map(u => fetch(u)))
 
 // Play btn
 // Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
-
 const audioBts = document.querySelector(".audio-bts");
 const audioBtnBts = document.querySelector("#galBts button");
 let isPlaying = false;

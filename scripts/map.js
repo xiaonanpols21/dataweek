@@ -15,7 +15,6 @@ function dCity(newCityBts, newCityHs) {
         .join("circle")
         .attr("cx", d => d.x )
         .attr("cy", d => d.y )
-        // Bron: https://www.dashingd3js.com/d3-tutorial/using-the-svg-coordinate-space-with-d3-js
         .attr("r", 13)
         .style('fill', '#BDBBDD')
 
