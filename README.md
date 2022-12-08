@@ -1,6 +1,6 @@
 # Dataweek
 
-![cover](https://github.com/xiaonanpols21/tech-track-22-23/blob/main/images/wiki/cover.jpg)
+![cover](https://github.com/xiaonanpols21/dataweek/blob/main/public/img/cover.png)
 
 Here is our project for Information Design Dataweek. Read our [Product bio](https://lopsided-guavaberry-72e.notion.site/Dataweek-BTS-vs-Harry-Styles-a24f9728e871422e851b336ae7dcbff3) for further information.
 
