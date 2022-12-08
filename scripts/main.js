@@ -63,7 +63,6 @@ Promise.all(urls.map(u => fetch(u)))
     // Numbers in object
     // Bron: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
     const iconsAmountBts = Array.from({length: amountBts}, (_, i) => i + 1);
-
     const iconsAmountHs = Array.from({length: amountHs}, (_, i) => i + 1);
 
     // Top 5 cities
@@ -85,7 +84,6 @@ Promise.all(urls.map(u => fetch(u)))
         e.y = cityLocation[0].y;
         return e;
     });
-    console.log(newCityBts)
 
     // Harry Styles
     const cityHs = [];
@@ -105,7 +103,6 @@ Promise.all(urls.map(u => fetch(u)))
         e.y = cityLocation[0].y;
         return e;
     });
-    console.log(newCityHs)
 
     // Visuals
     // BTS
@@ -130,34 +127,60 @@ Promise.all(urls.map(u => fetch(u)))
 
 // Play btn
 // Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
+
 const audioBts = document.querySelector(".audio-bts");
 const audioBtnBts = document.querySelector("#galBts button");
-const audioHs = document.querySelector(".audio-hs");
-const audioBtnHs = document.querySelector("#galHs button");
-
 let isPlaying = false;
-let isPlaying2 = false;
-
 function playBts() {
     isPlaying ? audioBts.pause() : audioBts.play();
 }
-function playHs() {
-    isPlaying2 ? audioHs.pause() : audioHs.play();
-}
-
 audioBts.onplaying = function() {
     isPlaying = true;
 };
 audioBts.onpause = function() {
     isPlaying = false;
 };
+audioBtnBts.addEventListener("click", playBts);
 
+const audioHs = document.querySelector(".audio-hs");
+const audioBtnHs = document.querySelector("#galHs button");
+
+let isPlaying2 = false;
+function playHs() {
+    isPlaying2 ? audioHs.pause() : audioHs.play();
+}
 audioHs.onplaying = function() {
     isPlaying2 = true;
 };
 audioHs.onpause = function() {
     isPlaying2 = false;
 };
-
-audioBtnBts.addEventListener("click", playBts);
 audioBtnHs.addEventListener("click", playHs);
+//*********************** */
+/*
+const playButtns = document.querySelectorAll(".play-btn")
+const audio = document.querySelectorAll("audio");
+
+let isMusicOn = false;
+
+audio.onplaying = function() {
+    isMusicOn = true;
+};
+audio.onpause = function() {
+    isMusicOn = false;
+};
+
+function switchMusic(event, whichBtn) {
+    audio.forEach(item => {
+        isMusicOn ? audio.pause() : audio.play();
+        if (whichBtn == 1) {
+
+        }
+    });
+   
+};
+
+playButtns.forEach(button => {
+    button.addEventListener("click", switchMusic);
+});
+*/

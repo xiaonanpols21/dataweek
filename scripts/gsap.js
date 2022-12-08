@@ -62,25 +62,6 @@ function trackAnimate(element) {
     // Het is dubble omdat het dan tegelijkertijd wordt afgespeeld
 };
 
-// Our fave
-/*
-animation  
-    .fromTo(".our-fave img", 
-        {
-            scale: 0,
-            opacity: 0,
-            rotation: 360
-        }, {
-            scale: 1,
-            opacity: 1,
-            rotation: 0,
-            duration: 2,
-            scrollTrigger: ".our-fave img"
-        }
-    )
-;
-*/
-
 // Header
 animation
     .fromTo(".img-artist", 

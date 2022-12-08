@@ -13,12 +13,8 @@ function dCity(newCityBts, newCityHs) {
         .selectAll("circle")
         .data(newCityBts)
         .join("circle")
-        .attr("cx", function (data) {
-            return data.x;
-        })
-        .attr("cy", function (data) {
-            return data.y;
-        })
+        .attr("cx", d => d.x )
+        .attr("cy", d => d.y )
         // Bron: https://www.dashingd3js.com/d3-tutorial/using-the-svg-coordinate-space-with-d3-js
         .attr("r", 13)
         .style('fill', '#BDBBDD')
@@ -34,11 +30,11 @@ function dCity(newCityBts, newCityHs) {
             .style("opacity", 1)
         }
         )
-        .on("mousemove", (e) =>
+        .on("mousemove", e =>
             d3
             .select(".tooltip-bts")
-            .style("left", e.pageX + 15 + "px")
-            .style("top", e.pageY + 15 + "px")
+            .style("left", `${e.pageX + 15}px`)
+            .style("top", `${e.pageY + 15}px`)
         )
         .on("mouseout", e => d3.select(".tooltip-bts").style("opacity", 0)
         );
@@ -50,12 +46,8 @@ function dCity(newCityBts, newCityHs) {
         .selectAll("circle")
         .data(newCityHs)
         .join("circle")
-        .attr("cx", function (data) {
-            return data.x;
-        })
-        .attr("cy", function (data) {
-            return data.y;
-        })
+        .attr("cx", d => d.x )
+        .attr("cy", d => d.y )
         .attr("r", 13)
         .style('fill', '#B2A383')
 
@@ -70,11 +62,11 @@ function dCity(newCityBts, newCityHs) {
             .style("opacity", 1)
         }  
         )
-        .on("mousemove", (e) =>
+        .on("mousemove",e =>
             d3
             .select(".tooltip-hs")
-            .style("left", e.pageX + 15 + "px")
-            .style("top", e.pageY + 15 + "px")
+            .style("left", `${e.pageX + 15}px`)
+            .style("top", `${e.pageY + 15}px`)
         )
         .on("mouseout", e => d3.select(".tooltip-hs").style("opacity", 0)
         );
@@ -112,9 +104,7 @@ d3.select('.map-heart')
 	.selectAll('path')
 	.data(heart)
 	.join('path')
-	.attr('transform', function(d) {
-		return `translate(${d.x} ${d.y})`;
-	})
+	.attr('transform', d => `translate(${d.x} ${d.y})`)
 	.attr('d', pathData)
 
     .on("mouseover", (e, d) => {
@@ -128,11 +118,11 @@ d3.select('.map-heart')
         .style("opacity", 1)
     } 
     )
-    .on("mousemove", (e) =>
+    .on("mousemove", e =>
         d3
         .select(".tooltip-star")
-        .style("left", e.pageX + 15 + "px")
-        .style("top", e.pageY + 15 + "px")
+        .style("left", `${e.pageX + 15}px`)
+        .style("top", `${e.pageY + 15}px`)
     )
     .on("mouseout", e => d3.select(".tooltip-star").style("opacity", 0)
     );
