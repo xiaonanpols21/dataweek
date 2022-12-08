@@ -120,7 +120,8 @@ Promise.all(urls.map(u => fetch(u)))
 
 // Play btn
 // Bron: https://stackoverflow.com/questions/27368778/how-to-toggle-audio-play-pause-with-one-button-or-link
-const audioBts = document.querySelector(".audio-bts");
+
+const audioBts = document.querySelector("#audio-bts");
 const audioBtnBts = document.querySelector("#galBts button");
 let isPlaying = false;
 function playBts() {
@@ -134,7 +135,7 @@ audioBts.onpause = function() {
 };
 audioBtnBts.addEventListener("click", playBts);
 
-const audioHs = document.querySelector(".audio-hs");
+const audioHs = document.querySelector("#audio-hs");
 const audioBtnHs = document.querySelector("#galHs button");
 
 let isPlaying2 = false;
@@ -148,10 +149,12 @@ audioHs.onpause = function() {
     isPlaying2 = false;
 };
 audioBtnHs.addEventListener("click", playHs);
+
 //*********************** */
 /*
 const playButtns = document.querySelectorAll(".play-btn")
-const audio = document.querySelectorAll("audio");
+const audio = document.querySelectorAll(".audio");
+const song = document.querySelectorAll(".song");
 
 let isMusicOn = false;
 
@@ -166,10 +169,11 @@ function switchMusic(event, whichBtn) {
     audio.forEach(item => {
         isMusicOn ? audio.pause() : audio.play();
         if (whichBtn == 1) {
-
-        }
+            song.src = "/audio/dreamers.mp3";
+        } else {
+            song.src = "/audio/as-it-was.mp3";
+        };
     });
-   
 };
 
 playButtns.forEach(button => {
