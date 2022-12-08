@@ -63,6 +63,10 @@
 }
 
 .mobile {
+
+    img {
+        margin-bottom: 50px
+    }
     h3 {
         @include font50;
         text-align: center;
