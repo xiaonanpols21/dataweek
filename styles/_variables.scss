@@ -12,6 +12,7 @@ $grayBlack: #696789;
 $grayLight: #E0E0E0;
 
 $bg-color: linear-gradient(to left, $beige 50%, $purple 50%);
+$bg-color-mb: linear-gradient($purple 50%, $beige 50%);
 
 @mixin font59 {
     font-size: 59px;
@@ -46,6 +47,12 @@ $bg-color: linear-gradient(to left, $beige 50%, $purple 50%);
 @mixin flex($direction, $gap) {
     display: flex;
     flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin flexWrap($gap) {
+    display: flex;
+    flex-wrap: wrap;
     gap: $gap;
 }
 

@@ -1,24 +1,178 @@
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    // Header
+    header {
+        flex-direction: column;
+        gap: 100px;
+        background: $bg-color-mb;
 
-}
+        article {
+            margin: auto;
+        }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+        a {
+            right: 20px;
+        }
+    }
 
+    // Tracks
+    .tracks-container {
+        @include flex(column, 100px);
+    }
+
+    .gallery {
+        article {
+            grid-template-columns: 0.5fr 1fr;
+        }
+    }
+
+    .divider {
+        top: 45%;
+        width: 100%;
+        height: 5px;
+    }
+
+    .our-fave {
+        @include flex(column, 50px);
+
+        article {
+            grid-template-columns: 120px 1fr;
+        }
+    }
+
+    // Listeners
+    .tooltip-listeners {
+        padding: 25px 50px;
+        width: fit-content;
+    }
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (max-width: 992px) { 
+    .map-container, .tooltip-bts, .tooltip-bts, .tooltip-hs, .tooltip-star {
+        display: none;
+    }
+
+    // Listeners
+    .tooltip-container {
+        @include flex(column, 50px);
+    }
+
+    .tooltip-listeners {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    // Header
+    header {
+        padding: 60px 20px 60px 20px;
+
+        article {
+            width: 100%;
+        }
+    }
+
+    // Tracks
+    .tracks {
+
+        .sec-titles {
+            p {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .gallery {
+        article {
+            &:first-of-type {
+                @include gridClmn(0.5fr 1fr, 20px);
+                grid-column-start: 1;
+                grid-column-end: 3;
+                grid-row-start: 1;
+                grid-row-end: 2;
+            }
+        }
+    }
+
+    // Listeners 
+    .icon {
+        gap: 50px;
+
+        article {
+            gap: 10px;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    // Header
+    header {
+        a {
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .xn {
+        left: 50px;
+    }
+
+    .ms {
+        left: 50px;
+        top: -50px;
+    }
+
+    .img-artist {
+        width: 370px;
+    }
+
+    // Tracks
+    .gallery {
+        @include flex(column, 20px);
+        article {
+            &:first-of-type {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
+
+    .divider {
+        top: 44%;
+    }
+    
+    .our-fave {
+        article {
+            @include flex(column, 20px)
+        }
+
+        img {
+            width: 50%;
+        }
+    }
+
+    // Listeners
+    .icon {
+        gap: 20px;
+    }
+
+    .tooltip-container {
+        gap: 20px;
+    }
 
 }
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
-}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
     
 }

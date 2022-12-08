@@ -4,12 +4,12 @@
 
 .map-data {
     position: absolute;
-    width: 1200px;
+    width: 100%;
     height: 544.51px;
 }
 
 .svg-map {
-    width: 1200px;
+    width: 100%;
     height: 544.51px;
 }
 
@@ -60,4 +60,11 @@
     color: $black;
     font-size: 17px;
     pointer-event: none;
+}
+
+.mobile {
+    h3 {
+        @include font50;
+        text-align: center;
+    }
 }

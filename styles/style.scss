@@ -64,3 +64,13 @@ img {
     white-space: nowrap !important;
     border: 0 !important;
 }
+
+@media (max-width: 768px) {
+    .tracks {
+        padding: 50px 20px;
+    }
+
+    .listeners {
+        padding: 40px 20px;
+    }
+}

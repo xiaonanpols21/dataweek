@@ -23,22 +23,13 @@
 }
 
 .icon {
-    @include gridClmn(1fr 1fr, 50px);
+    @include gridClmn(1fr 1fr, 100px);
+    width: fit-content;
+    margin: auto;
 
     article {
-        @include gridClmn(1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr, 20px);
+        @include flexWrap(20px);
         height: fit-content;
-
-        &:first-of-type {
-            margin-right: auto;
-        }
-
-        &:last-of-type {
-            margin-left: auto;
-        }
-        &:first-of-type {
-            margin-right: auto;
-        }
 
         i {
             font-size: 40px;
@@ -47,7 +38,7 @@
 }
 
 .tooltip-container {
-    @include justFlex(space-around);
+    @include justFlex(space-between);
     grid-column-start: 1;
     grid-column-end: 3;
     margin-top: 10px;
@@ -76,12 +67,3 @@
         @include font59;
     }
 }
-
-#bts-tooltip {
-    margin-right: auto;
-}
-
-#hs-tooltip {
-    margin-left: auto;
-}
-
